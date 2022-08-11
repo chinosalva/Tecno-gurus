@@ -1,3 +1,2 @@
 # Tecno-gurus
-## karen
 Fero
