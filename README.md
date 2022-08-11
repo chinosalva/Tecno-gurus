@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #Aline
 =======
@@ -25,3 +26,6 @@ Erick Presente
 =======
 >>>>>>> 2fd6ad15e446443c2c73137e9be10a516399bb1f
 >>>>>>> acd6dfa49d5ada621126dd506aaf29ce3344d4a3
+=======
+Lo que sea
+>>>>>>> Fero
