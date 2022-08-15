@@ -119,9 +119,9 @@ footer{
     
 }
 
-/* For extremely small screen devices (599px and below) */
+/* Para dispositivos de 769px y menores */
 @media only screen and (max-width: 769px) {
-    /*------------------Títulos-----------------------------*/
+    /*------------------Títulos------------------------------------*/
     .Titulo{
         font-size: 10vw;
     }
