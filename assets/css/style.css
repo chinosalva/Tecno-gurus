@@ -34,6 +34,8 @@ font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
 }
 /****************************************************************************************/
+
+/************************     Home Page ************************************************/
 .navbar-brand-compressed{
     display: none;
 }
@@ -47,12 +49,10 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .slogan{
-    /*padding-top: 50px;*/
     padding-top: 5vh;
   
 }
 .textIntro{
-    /*padding-top: 30px;*/
     padding-top: 3vh;
     
 }
@@ -78,17 +78,14 @@ font-family: 'Quicksand', sans-serif;
     height: 550px;
    
 }
-
 .HpPO{
     
     background-color: #EDEDED;
 }
-
 .HpPO1{ 
     width: 100%;
     height: 100%;
 }
-
 .more{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -118,26 +115,18 @@ footer{
 }
 
 .footerText{
-    /*margin-bottom: 5%;*/
     margin-bottom: .4rem;
     
 }
-/*.footerText-item2{
-    font-size: 1.2vw;
-    
-}
-.footerText{
-    font-size: 1.2vw;
-    
-}*/
+
 /* For extremely small screen devices (599px and below) */
 @media only screen and (max-width: 769px) {
-
+    /*------------------Títulos-----------------------------*/
     .Titulo{
         font-size: 10vw;
     }
 
-    /*Párrafos*/
+    /*-----------------------Párrafos-----------------------------*/
     .Texto1{
         font-size: 5vw;
     }
@@ -145,7 +134,7 @@ footer{
         font-size: 3.5vw;
     }
 
-    /*navbar*/
+    /*------------------------navbar---------------------------------*/
     .nav-brand{
         
         display: none;
@@ -154,7 +143,7 @@ footer{
         display: flex;
     }
     
-    /*Home Page content*/
+    /*------------------------Home Page content*--------------------------*/
     .bi-arrow-right{
         font-size: 3.5vw;
 
@@ -168,7 +157,7 @@ footer{
     }
 
 
-    /*Footer*/
+    /*---------------------Footer------------------------------------*/
     .footerText{
         display: none;
     }
