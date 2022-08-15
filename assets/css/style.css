@@ -35,10 +35,17 @@ font-family: 'Quicksand', sans-serif;
 }
 /****************************************************************************************/
 
-/************************     Home Page ************************************************/
+/*********************************Nav bar ************************************************/
 .navbar-brand-compressed{
     display: none;
 }
+.navbar-brand-normal{
+    height: 3rem; /*cambio de tamaño*/
+}
+.bi-cart-fill{
+    font-size: 1rem;
+}
+/*********************************Home Page*************************************************/
 .BienvenidoFrame{
     height: 100%;
     padding-top: 15%;
@@ -104,18 +111,24 @@ footer{
     /*font-size: 1.2vw;*/
     font-size: 1rem;
     color: black; 
-   
+    margin-top: 1rem;
 }
 
 .footer-brand-compressed{
     display: none;
 }
-.footer-brand{
-    margin-bottom: .3rem;
+.footer-brand img{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 3rem;
 }
 
 .footerText{
-    margin-bottom: .4rem;
+    margin-top: 1rem;
+    
+}
+.footerText-item2{
+    margin-top: 1rem;
     
 }
 
@@ -141,6 +154,7 @@ footer{
     }
     .navbar-brand-compressed{
         display: flex;
+        height: 9vw;
     }
     
     /*------------------------Home Page content*--------------------------*/
@@ -163,21 +177,22 @@ footer{
     }
     .footerText-item2{
         font-size: .8rem;
-        margin-top: .3rem;
+        margin-top: 1.2rem;
        /* margin-top: 3%;*/
     }
 
     .footer-brand{
         display: none;
     }
-    .footerLink{
+    /*.footerLink{
         margin-bottom: 1rem;
-    }
+    }*/
     
     .footer-brand-compressed{
         display: flex;
-        height: 50%;
-        margin-top: 1.5rem;
+        /*height: 50%;*/
+        height: 9vw;
+        margin-top: auto;
         margin-bottom: auto;
         margin-left: 1rem;
         
