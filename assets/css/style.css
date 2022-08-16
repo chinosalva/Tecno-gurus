@@ -175,14 +175,21 @@ footer{
         font-size: 3.5vw;
 
     }
-  
+    .WelcomeFrame{
+        background-color: white;
+    }
     .BienvenidoFrame{
         margin-top: 0vw;
+        /*text-align: center;*/
+        padding-top: 15%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 50px;
     }
     .bi-heart-fill{
         font-size: 3.5vw;
     }
-
+    
 
     /*---------------------Footer------------------------------------*/
     .footerText{
