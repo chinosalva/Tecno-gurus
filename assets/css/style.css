@@ -123,7 +123,7 @@ font-family: 'Quicksand', sans-serif;
 
 }
 
-/***************************Footer********************************************/
+/***************************Footer*******************************************
 footer{
     margin-top: 6rem;
     background-color: #EDEDED;
@@ -132,7 +132,7 @@ footer{
     list-style: none;
 }
 .footerLink{
-    /*font-size: 1.2vw;*/
+    
     font-size: 1rem;
     color: black; 
     margin-top: 1rem;
@@ -157,10 +157,77 @@ footer{
 .footerText-item2{
     margin-top: 1rem;
     
+}*/
+/***************************Footer********************************************/
+footer{
+    margin-top: 6rem;
+    background-color: #EDEDED;
+    position: relative;
+    
+    
+}
+.prueba1{
+    
+}
+.footerlist{
+    list-style: none;
+    margin-left: 50vw;
+    
+    
+}
+.footerLink{
+    /*font-size: 1.2vw;*/
+    font-size: 1rem;
+    color: rgb(216, 216, 216); 
+    margin-top: 1rem;
+  
+    
+}
+
+.footer-brand-compressed{
+    display: none;
+}
+.footer-brand img{
+    padding-bottom: 5%;
+    padding-top: auto;
+    height: 3rem;
+    
+}
+.footer-brand{
+    display: flex;
+    align-items: center;
+}
+.footerText{
+    margin-top: 1rem;
+    color: rgb(216, 216, 216);
+    
+}
+.footerText-item2{
+    margin-top: 1rem;
+    color: rgb(216, 216, 216);
+}
+
+.alle{
+    position: absolute;
+    height: 100%;
+    bottom: 19%;
+    left: auto;
+}
+.alle2{
+    width: 90vw;
+    position: absolute;
+    bottom: 5%;
+    padding-bottom: .2rem;
+    margin-right: 0px;
+    display: flex;
+    
+}
+.bi-instagram{
+    margin-right: 50px;
 }
 
 /* Para dispositivos de 769px y menores */
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 1024px) {
     /*------------------Títulos------------------------------------*/
     .Titulo{
         font-size: 10vw;
@@ -181,7 +248,7 @@ footer{
     }
     .navbar-brand-compressed{
         display: flex;
-        height: 9vw;
+        height: 6vw;
     }
     
     /*------------------------Home Page content*--------------------------*/
@@ -205,7 +272,7 @@ footer{
     }
     
 
-    /*---------------------Footer------------------------------------*/
+    /*---------------------Footer v1------------------------------------
     .footerText{
         display: none;
     }
@@ -213,8 +280,45 @@ footer{
         font-size: .8rem;
         margin-top: 1.2rem;
        /* margin-top: 3%;*/
-    }
+    /*}
 
+    .footer-brand{
+        display: none;
+    }
+    /*.footerLink{
+        margin-bottom: 1rem;
+    }*/
+    
+    /*.footer-brand-compressed{
+        display: flex;
+        /*height: 50%;*/
+        /*height: 9vw;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 1rem;
+        
+        
+    }*/
+
+    
+   
+    /*---------------------Footer v2------------------------------------*/
+    .imagenWave{
+        display: none;
+    }
+    .footerText{
+        display: none;
+    }
+    .footerText-item2{
+        /*font-size: .8rem;
+        margin-top: 1.2rem;
+       /* margin-top: 3%;*/
+       display: none;
+    }
+    .footerLink{
+        color: rgb(0, 0, 0);
+        font-size: 1.5vw;
+    }
     .footer-brand{
         display: none;
     }
@@ -225,11 +329,24 @@ footer{
     .footer-brand-compressed{
         display: flex;
         /*height: 50%;*/
-        height: 9vw;
+        height: 5vw;
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: 1rem;
+        margin-left: 0rem;
+        padding-top: .2rem;
+        padding-bottom: .2rem;
         
         
     }
+    .alle{
+        position: relative;
+        top: 0;
+    }
+    .bi-instagram{
+        margin-right: 30px;
+    }
+    
 }
+    
+
+
