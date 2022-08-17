@@ -1,22 +1,22 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="assets/css/styleContacto.css">
+    <link rel="stylesheet" href="assets/css/stylesContacto.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     
-    <title>Botanicos</title>
+    <title>Contácto - Botánicos</title>
   </head>
-  <body>
+  <body>    
 
     <!--------------------------------------------------Comienza Navbar----------------------------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container p-3">
+        <div class="container">
             
             <a class="nav-brand" href="#"><img class="navbar-brand-normal"src="assets/images/botanicosLogo.png" alt=""></a>
             <a class="navbar-brand-compressed" href="#"><img src="assets/images/header-02.png" alt=""></a> 
@@ -43,6 +43,9 @@
                     <li>
                         <a class="nav-link Texto3" href="#">Login <i class="bi bi-person-circle"></i></a>
                     </li>
+                    <li>
+                        <a class="nav-link Texto3" href="#"><i class="bi bi-cart-fill"></i></a>
+                    </li>
                     
                 </ul>
             </div>
@@ -52,53 +55,72 @@
     <!--------------------------------------------------Termina Navbar----------------------------------------------------------------->
 
 
+
     <!--------------------------------------------------Comienza Frame de Contacto--------------------------------------------------->
+<div class="container" style="margin-left: auto; margin-right: auto; width: 40%;" >
+    <div class="tituloFrame">
+        <div class="container">
+            <div>
+                <h1>Contáctanos</h1>                
+            </div>
+        </div>
+    </div>
 
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-
-      <!-- aaaaa -->
-
-
-
-
-
+    <div class="parrafoFrame">
+        <div class="container">
+            <div>                        
+                <p>¿Tienes alguna duda? Llena el formulario y nos comunicaremos contigo lo más pronto posible</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container" id="columnaPrincipal">
+        <div class="mb-3" style="width: 100%;">
+            <label for="exampleFormControlNombre" class="form-label">Nombre</label>
+            <input class="form-control" id="inputNombre" placeholder="Nombre" rows="1"></input>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlCorreo" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="inputCorreo" placeholder="nombre@ejemplo.com" rows="1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlComentario" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="inputComentario" placeholder="Comentarios" rows="5"></textarea>
+        </div>
+        <button type="submit" id="botonEnviar" style="width:100%">Enviar</button>
+    </div>
+</div>
+    
     <!--------------------------------------------------Termina Frame de Contacto--------------------------------------------------->
     
 
 
 
-    <!------------------------------------------------------------Comienza Footer ------------------------------------->
-    <footer>
-        <div class="container">
-            <div class="row pl-3 pr-3">
-                <a class="footer-brand" href="#"><img src="assets/images/botanicosLogo.png" alt=""></a> 
-                <a href="#"><img class="footer-brand-compressed"src="assets/images/header-02.png" alt=""></a>
-                <ul class="footerlist d-flex ml-auto mt-auto">
-                    <li>
-                        <a class="d-flex" href="mailto: karenlbfs@gmail.com"><i class="footerLink bi bi-envelope-fill "> </i>
-                            <div class="Texto3 footerText  ml-1">botanicos@gmail.com</div>
-                        </a>
-                    </li>
-                    <li class="d-flex ml-3">
-                        <i class="footerLink bi bi-telephone-fill"></i>
-                        <div class="Texto3 footerText-item2  ml-1">+52 55-5555-5555</div>
-                    </li>
-                    
-                </ul>
+        <!------------------------------------------------------------Comienza Footer ------------------------------------->
+        <footer>
+            <div class="container">
+                <div class="row pl-3 pr-3">
+                    <a class="footer-brand" href="#"><img src="assets/images/botanicosLogo.png" alt=""></a> 
+                    <a class="d-flex align-middle" href="#"><img class="footer-brand-compressed"src="assets/images/header-02.png" alt=""></a>
+                    <ul class="footerlist d-flex ml-auto mt-auto">
+                        <li>
+                            <a class="d-flex" href="mailto: karenlbfs@gmail.com"><i class="footerLink bi bi-envelope-fill "> </i>
+                                <div class="Texto3 footerText  ml-1">contacto@botanicos.com</div>
+                            </a>
+                        </li>
+                        <li class="d-flex ml-3">
+                            <i class="footerLink bi bi-telephone-fill"></i>
+                            <div class="Texto3 footerText-item2  ml-1">+52 55-5555-5555</div>
+                        </li>
+                        
+                    </ul>
+                </div>
+    
+    
+    
             </div>
-
-
-
-        </div>
-    </footer>
-    <!------------------------------------------------------------Termina Footer ------------------------------------->
+        </footer>
+        <!------------------------------------------------------------Termina Footer ------------------------------------->
 
 
 
