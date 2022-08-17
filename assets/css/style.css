@@ -15,18 +15,19 @@ font-family: 'Quicksand', sans-serif;
     
     font-size: 4rem;
     font-family: 'Lora', serif;
+    color: #010101;
 }
 
 /*Párrafos*/
 .Texto1{
     font-size: 1.5rem;
     font-family: 'Inter', sans-serif;
-    color: black;
+    color: #010101;
 }
 .Texto2{
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
-    color: black;
+    color: #010101;
 }
 /*Texto de navbar y footer*/
 .Texto3{
@@ -46,6 +47,12 @@ font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
 }
 /*********************************Home Page*************************************************/
+.WelcomeFrame{
+    background-color: #00716D;
+}
+.wF1{
+    background-color: white;
+}
 .BienvenidoFrame{
     height: 100%;
     padding-top: 15%;
@@ -94,8 +101,11 @@ font-family: 'Quicksand', sans-serif;
     height: 100%;
 }
 .more{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.diferenciacion{
+    background-color:  #d7c8bb;
 }
 
 
@@ -165,14 +175,21 @@ footer{
         font-size: 3.5vw;
 
     }
-  
+    .WelcomeFrame{
+        background-color: white;
+    }
     .BienvenidoFrame{
         margin-top: 0vw;
+        /*text-align: center;*/
+        padding-top: 15%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 50px;
     }
     .bi-heart-fill{
         font-size: 3.5vw;
     }
-
+    
 
     /*---------------------Footer------------------------------------*/
     .footerText{
