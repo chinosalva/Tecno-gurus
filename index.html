@@ -58,9 +58,9 @@
     <!--------------------------------------------------Comienza Frame de Bienvenida--------------------------------------------------->
     <div class="WelcomeFrame p-5">
         <div class="container wF1">
-            <div class="row">
+            <div class="row fade-in-text-Bienvenido">
                 <div class="col-12 col-lg-6">
-                    <div class="BienvenidoFrame">
+                    <div class="BienvenidoFrame ">
                         <h1 class="Titulo">Bienvenido</h1>
                         <div class="slogan">
                             <p class="Texto1">Plantas 100% mexicanas creadas con amor <i class="bi bi-heart-fill"></i></p>
@@ -70,6 +70,7 @@
                                 plantas transformen un espacio en un hogar.
                             </p>
                         </div>
+                        <div class="row ml-1 mt-5"><a href=""><button class="botonIni"><div class="Texto3 p-2">Compra Ahora</div> </button></a></div>
                     </div>
                 </div>
 
@@ -87,6 +88,7 @@
     <div class="HpPO pt-2 pb-2">
         <div class="container">
             <div class="row mb-3"></div>
+            <div class="row justify-content-center Texto1n">Nuestros Productos</div>
             <div class="row justify-content-center">
                 <div class="col-6 col-lg-4 mt-4 mb-4"><img class="HpPO1 img-fluid" src="assets/images/homePage/imgP1.png" alt="Planta"></div>
                 <div class="col-6 col-lg-4 mt-4 mb-4"><img class="HpPO1 img-fluid"src="assets/images/homePage/imgP2.png" alt="Planta"></div>
@@ -154,20 +156,72 @@
 
         </div>
     </div>  
-    <div class="container">
-        <!------------------------------------------------------------Imagen Final del Home Page ------------------------------------->
+    <!--<div class="container">
+        -----------------------------------------------------------Imagen Final del Home Page -----------------------------------
         <div class="row">
             <div class="col">
                 <img class="img-fluid pt-3"src="assets/images/homePage/Imagen.png" alt="">
             </div>
         </div>
 
+    </div>-->
+    <!--------------------------------------------------------------Reviews---------------------------------------------------------------------------->
+    <div class="container  p-5 reviews">
+        <div class="row row-cols-1 row-cols-lg-3 justify-content-center">
+            <div class="col mb-4">
+              <div class="card h-100 bg-light text-center animacionR">
+                
+                <div class="card-body">
+                  <!--<p class="card-title Texto1 text-center">Ana</p>-->
+                  <div class="row justify-content-center"><img class="img-fluid" style="height: 50px;" src="https://swedishmadeeasy.com/wp-content/uploads/2019/05/Circular-profile-pics-1.png" alt=""></div>
+                  <p class="mt-2"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                  <p class="card-text Texto2">Botánicos me apoyó bastante en elegir la planta ideal.</p>
+                  <footer class="blockquote-footer">Ana, Guadalajara</footer>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100 bg-light text-center animacionR">
+                  <div class="card-body">
+                    <!--<p class="card-title Texto1 text-center">Simon</p>-->
+                    <div class="row justify-content-center"><img class="img-fluid" style="height: 50px;" src="https://wildheartmagazine.com/wp-content/uploads/2014/01/round-profile-image.png" alt=""></div>
+                    <p class=" mt-2"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                    <p class="card-text  Texto2">La mejor tienda en línea para comprar plantas y lo mejor es que tienen un equipo increíble.</p>
+                    <footer class="blockquote-footer">Renata, Ciudad de México</footer>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100 bg-light text-center animacionR">
+                  
+                  <div class="card-body">
+                    <!--<h5 class="card-title Texto1 text-center">Simon</h5>-->
+                    <div class="row justify-content-center"><img class="img-fluid" style="height: 50px;" src="assets/images/homePage/imgPersona3.png" alt=""></div>
+                    <p class="text-center mt-2"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                    <p class="card-text text-center Texto2">Muy buen servicio y llegan rápidos tus pedidos</p>
+                    <footer class="blockquote-footer">Raúl, Ciudad de México</footer>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100 bg-light text-center animacionR">
+                  <div class="card-body">
+                    <!--<div class="card-title Texto1 text-center">Simon </div>-->
+                    <div class="row justify-content-center"><img class="img-fluid" style="height: 50px;" src="http://www.freeiconspng.com/uploads/green-circle-png-15.png" alt=""></div>
+                    <p class="mt-2"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                    <p class="card-text Texto2">Superó mis expectativas.</p>
+                    <footer class="blockquote-footer">Adrián, Ciudad de México</footer>
+                  </div>
+                </div>
+              </div>
+          </div>
     </div>
 
 
 
-    <!------------------------------------------------------------Comienza Footer ------------------------------------->
-    <footer>
+
+    <!------------------------------------------------------------Comienza Footer v1------------------------------------->
+    <!--<footer>
         <div class="container">
             <div class="row pl-3 pr-3">
                 <a class="footer-brand" href="#"><img src="assets/images/botanicosLogo.png" alt=""></a> 
@@ -180,7 +234,7 @@
                     </li>
                     <li class="d-flex ml-3">
                         <i class="footerLink bi bi-telephone-fill"></i>
-                        <!--<div class="Texto3 footerText-item2  ml-1">+52 55-5555-5555</div>-->
+                        <div class="Texto3 footerText-item2  ml-1">+52 55-5555-5555</div>
                     </li>
                     
                 </ul>
@@ -189,13 +243,41 @@
 
 
         </div>
+    </footer>-->
+    <!------------------------------------------------------------Termina Footer v1------------------------------------->
+
+
+    <!------------------------------------------------------------Comienza Footer v2------------------------------------->
+    <footer>
+        <div class="imagenWave">
+            <img class="mt-2 img-fluid"src="assets/images/homePage/BGWave.svg" alt="" style="width: 100%; height: 70%;">
+        </div>
+        <div class="container prueba1" >
+            
+            <div class="row pl-3 pr-3 alle">
+                <a class="footer-brand" href="#"><img src="assets/images/botanicosLogo.png" alt=""></a> 
+                <a class="d-flex align-middle" href="#"><img class="footer-brand-compressed"src="assets/images/header-02.png" alt=""></a>
+                
+            </div>
+
+        </div>
+        
+            <div class="row alle2 justify-content-end">
+                <a class="d-flex" href="mailto: karenlbfs@gmail.com"><i class="footerLink bi bi-envelope-fill "> </i>
+                    <div class="Texto3 footerText  ml-1">botanicos@gmail.com</div>
+                    
+                </a>
+                <a class="d-flex" href="#"><i class="footerLink bi bi-telephone-fill ml-2"></i>
+                    <div class="Texto3 footerText-item2 ml-1">+52 55-5555-5555</div>
+                </a>
+                <a class="footerLink"href="#"><i class=" bi bi-whatsapp ml-2"></i></a>
+                <a class="footerLink" href="#"> <i class="bi bi-facebook ml-2"></i></a>
+                <a class="footerLink" href="#"><i class="bi bi-instagram ml-2"></i></a>
+            
+        </div>
     </footer>
-    <!------------------------------------------------------------Termina Footer ------------------------------------->
 
-
-
-
-
+<!------------------------------------------------------------Termina Footer v2------------------------------------->
 
 
 
