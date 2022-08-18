@@ -1,0 +1,25 @@
+
+.RegistroFrame{
+
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 50px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+
+}
+
+.FondoFrame{
+    width: 100%;
+   background-color: white;
+}
+
+.botoncolor {
+
+    color: #fff;
+    background-color:#00716D;
+    border-color: #00716D;
+
+  
+}; 
+
