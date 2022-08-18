@@ -15,19 +15,13 @@ font-family: 'Quicksand', sans-serif;
     
     font-size: 4rem;
     font-family: 'Lora', serif;
-<<<<<<< HEAD
-=======
     color: #010101;
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
 }
 
 /*Párrafos*/
 .Texto1{
     font-size: 1.5rem;
     font-family: 'Inter', sans-serif;
-<<<<<<< HEAD
-    color: black;
-=======
     color: #010101;
 }
 .Texto1n{
@@ -35,16 +29,11 @@ font-family: 'Quicksand', sans-serif;
     font-family: 'Inter', sans-serif;
     color: #010101;
     font-weight: 200;
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
 }
 .Texto2{
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
-<<<<<<< HEAD
-    color: black;
-=======
     color: #010101;
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
 }
 /*Texto de navbar y footer*/
 .Texto3{
@@ -64,15 +53,12 @@ font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
 }
 /*********************************Home Page*************************************************/
-<<<<<<< HEAD
-=======
 .WelcomeFrame{
     background-color: #00716D;
 }
 .wF1{
     background-color: white;
 }
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
 .BienvenidoFrame{
     height: 100%;
     padding-top: 15%;
@@ -93,8 +79,6 @@ font-family: 'Quicksand', sans-serif;
 .bi-heart-fill{
     font-size: 1rem;
 }
-<<<<<<< HEAD
-=======
 /*Animación*/
 .fade-in-text-Bienvenido {
     
@@ -129,7 +113,6 @@ font-family: 'Quicksand', sans-serif;
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
 .bi-arrow-right{
     color: black;
     font-size: 1rem;
@@ -149,8 +132,6 @@ font-family: 'Quicksand', sans-serif;
     height: 550px;
    
 }
-<<<<<<< HEAD
-=======
 .botonIni{
     background: #FAD58F;
 /* Primary/200 */
@@ -163,7 +144,6 @@ font-family: 'Quicksand', sans-serif;
     background-color: rgb(255, 142, 3);
     transform: scale(1.1);
 }
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
 .HpPO{
     
     background-color: #EDEDED;
@@ -173,14 +153,6 @@ font-family: 'Quicksand', sans-serif;
     height: 100%;
 }
 .more{
-<<<<<<< HEAD
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-
-/***************************Footer********************************************/
-=======
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -204,7 +176,6 @@ font-family: 'Quicksand', sans-serif;
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 /***************************Footer*******************************************
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
 footer{
     margin-top: 6rem;
     background-color: #EDEDED;
@@ -213,11 +184,7 @@ footer{
     list-style: none;
 }
 .footerLink{
-<<<<<<< HEAD
-    /*font-size: 1.2vw;*/
-=======
     
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
     font-size: 1rem;
     color: black; 
     margin-top: 1rem;
@@ -242,12 +209,6 @@ footer{
 .footerText-item2{
     margin-top: 1rem;
     
-<<<<<<< HEAD
-}
-
-/* Para dispositivos de 769px y menores */
-@media only screen and (max-width: 769px) {
-=======
 }*/
 /***************************Footer********************************************/
 footer{
@@ -317,7 +278,6 @@ footer{
 
 /* Para dispositivos de 769px y menores */
 @media only screen and (max-width: 1024px) {
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
     /*------------------Títulos------------------------------------*/
     .Titulo{
         font-size: 10vw;
@@ -327,16 +287,11 @@ footer{
     .Texto1{
         font-size: 5vw;
     }
-<<<<<<< HEAD
-    .Texto2{
-        font-size: 3.5vw;
-=======
     .Texto1n{
         font-size: 5.5vw;
     }
     .Texto2{
         font-size: 3vw;/*3.5*/
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
     }
 
     /*------------------------navbar---------------------------------*/
@@ -346,11 +301,7 @@ footer{
     }
     .navbar-brand-compressed{
         display: flex;
-<<<<<<< HEAD
-        height: 9vw;
-=======
         height: 6vw;
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
     }
     
     /*------------------------Home Page content*--------------------------*/
@@ -358,11 +309,6 @@ footer{
         font-size: 3.5vw;
 
     }
-<<<<<<< HEAD
-  
-    .BienvenidoFrame{
-        margin-top: 0vw;
-=======
     .WelcomeFrame{
         background-color: white;
     }
@@ -373,20 +319,13 @@ footer{
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 50px;
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
     }
     .bi-heart-fill{
         font-size: 3.5vw;
     }
-<<<<<<< HEAD
-
-
-    /*---------------------Footer------------------------------------*/
-=======
     
 
     /*---------------------Footer v1------------------------------------
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
     .footerText{
         display: none;
     }
@@ -394,11 +333,7 @@ footer{
         font-size: .8rem;
         margin-top: 1.2rem;
        /* margin-top: 3%;*/
-<<<<<<< HEAD
-    }
-=======
     /*}
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
 
     .footer-brand{
         display: none;
@@ -407,19 +342,6 @@ footer{
         margin-bottom: 1rem;
     }*/
     
-<<<<<<< HEAD
-    .footer-brand-compressed{
-        display: flex;
-        /*height: 50%;*/
-        height: 9vw;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 1rem;
-        
-        
-    }
-}
-=======
     /*.footer-brand-compressed{
         display: flex;
         /*height: 50%;*/
@@ -481,4 +403,63 @@ footer{
     
 
 
->>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+
+
+/***************************Formulario Login********************************************/
+
+
+.container-fluid{
+    background: #EB984E;
+    height: 100%;
+    width: fit-content;
+    
+    
+    
+}
+
+
+
+.form-container{
+    background: #F4ECF7;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px;
+    margin: auto;
+    height:100% ;
+    width: fit-content;      
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Lora', serif;
+
+
+}
+p{
+    font-size: 0.7rem;
+    font-family: 'Inter', sans-serif;
+    color: #566573;
+
+}
+
+#boton{
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    background-size: 300%;
+    background-image: linear-gradient(to left, #145A32,#229954,#229954,#1E8449);
+}
+
+
+
+
+@media(max-width: 480px){
+    form{
+        width: 100%;
+    }
+}
+
+
+
+/***************************Formulario Login********************************************/
+
