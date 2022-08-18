@@ -72,10 +72,10 @@ p:hover {
 }
 span:hover {
     color: #fff;
-    text-shadow: 0 0 5px #03f4b8,
-    0 0 25px #03f4b8,
-    0 0 50px #03f4b8,
-    0 0 100px #03f4b8;
+    text-shadow: 0 0 5px #161318,
+    0 0 25px #161318,
+    0 0 50px #161318,
+    0 0 100px #161318;
 }
 
 .card {
@@ -127,7 +127,7 @@ span:hover {
     z-index: 30;
     position: absolute;
     bottom: 0px;
-    color: #fff;
+    color: #F0B27A;
     padding: 20px;
     padding-bottom: 30px;
 }
@@ -217,6 +217,7 @@ div .animation {
     90% {transform: scale(1.1) skewX(-50deg);}
     100% {transform: scale(1) skew(-90deg);}
 }
+/* Modales */
 .modal1 {
     position: fixed;
     top: 0;
@@ -234,6 +235,364 @@ div .animation {
     align-items: center;
     justify-content: center;
 }
+.modal2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal5 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal7 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal8 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal9 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal10 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal11 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal12 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal13 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal14 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal15 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal15 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal16 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal17 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal18 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal19 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal20 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal21 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Terminan Modales */
 .modal1--show {
     opacity: 1;
     z-index: 90;
@@ -242,18 +601,144 @@ div .animation {
 }
 .container1 {
     position: relative;
-    width: 450px;
-    height: 620px;
-    background-color: #000;
+    width: 400px;
+    height: 670px;
+    background-color: #F0B27A;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: -8px 13px 400px 200px rgba(0,0,0,1);
+    -webkit-box-shadow: -8px 13px 400px 200px rgba(0,0,0,1);
+    -moz-box-shadow: -8px 13px 400px 200px rgba(0,0,0,1);
+}
+/* Modal img */
+.bg-img1 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/tillandsia.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img2 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/rosa\ del\ desierto.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img3 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/santa\ teresita.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img4 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/pinoNorfolk.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img5 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/palmeraDeSalon.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img6 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/cactusCrasas.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img7 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/aloeVera.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img8 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/echeveria.png") center / cover;
+    background-repeat: no-repeat;
 }
 .bg-img1 {
-    width: 450px;
-    height: 320px;
-    background: url("./assets/images/productos/tillandsia.png") center / contain;
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/tillandsia.png") center / cover;
+    background-repeat: no-repeat;
 }
+.bg-img9 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/cintas.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img10 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/croton.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img11 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/violetaAfricana.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img12 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/coleusBlumei.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img13 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/calatheaMedaillon.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img14 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/calandrina.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img15 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/plantaDelRosario.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img16 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/yucaPieDeElefante.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img17 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/lavanda.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img18 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/gardenia.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img19 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/lenguaDeSuegra.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img1 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/tillandsia.png") center / cover;
+    background-repeat: no-repeat;
+}
+
+/* Termina Modal img */
 .content1 {
     position: absolute;
     bottom: 0;
@@ -261,29 +746,37 @@ div .animation {
     width: 100%;
     height: 300px;
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    padding: 0 1px;
-    background: linear-gradient(to top, #000 70%, transparent);
+    background: linear-gradient(to top, #A3E4D7 70%, transparent);
+    font-weight: bold;
 }
 .box-one1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
+}
+.box-one1 h4 {
+    font-size: 1em;
+    font-weight: bold;
 }
 .sub-text1 {
-    font-size: .6em;
+    font-size: .8em;
     text-align: justify;
-    color: #615b5b;
+    color: #000;
     font-weight: bold;
 }
 .sub-text1 span {
-    color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: .8em;
 }
 #txt1 {
     text-align: right;
+    font-weight: bold;
 }
 .box-two1 {
     width: 100%;
@@ -291,15 +784,21 @@ div .animation {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    font-weight: bold;
+}
+.box-two1 h4 {
+    font-size: 1em;
+    font-weight: bold;
 }
 .box-two1 button {
+    font-weight: bold;
     height: 3em;
     border: none;
     outline: none;
     font-weight: bolder;
     font-size: 1em;
     color: #fff;
-    background-color: #E50914;
+    background-color: #0970e5;
     border-radius: 6px;
     cursor: pointer;
 }
