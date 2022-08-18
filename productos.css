@@ -656,76 +656,76 @@ div .animation {
 .bg-img8 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/echeveria.png") center / cover;
-    background-repeat: no-repeat;
-}
-.bg-img1 {
-    width: 400px;
-    height: 370px;
-    background: url("./assets/images/productos/tillandsia.png") center / cover;
+    background: url("./assets/images/productos/espinaDeCristo.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img9 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/cintas.png") center / cover;
+    background: url("./assets/images/productos/echeveria.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img10 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/croton.png") center / cover;
+    background: url("./assets/images/productos/cintas.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img11 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/violetaAfricana.png") center / cover;
+    background: url("./assets/images/productos/croton.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img12 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/coleusBlumei.png") center / cover;
+    background: url("./assets/images/productos/violetaAfricana.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img13 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/calatheaMedaillon.png") center / cover;
+    background: url("./assets/images/productos/coleusBlumei.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img14 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/calandrina.png") center / cover;
+    background: url("./assets/images/productos/calatheaMedaillon.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img15 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/plantaDelRosario.png") center / cover;
+    background: url("./assets/images/productos/calandrina.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img16 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/yucaPieDeElefante.png") center / cover;
+    background: url("./assets/images/productos/plantaDelRosario.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img17 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/lavanda.png") center / cover;
+    background: url("./assets/images/productos/yucaPieDeElefante.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img18 {
     width: 400px;
     height: 370px;
-    background: url("./assets/images/productos/gardenia.png") center / cover;
+    background: url("./assets/images/productos/lavanda.png") center / cover;
     background-repeat: no-repeat;
 }
 .bg-img19 {
+    width: 400px;
+    height: 370px;
+    background: url("./assets/images/productos/sapitoChico.png") center / cover;
+    background-repeat: no-repeat;
+}
+.bg-img20 {
     width: 400px;
     height: 370px;
     background: url("./assets/images/productos/lenguaDeSuegra.png") center / cover;
@@ -739,6 +739,187 @@ div .animation {
 }
 
 /* Termina Modal img */
+/* Empieza Modal close */
+.modal-close {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close2 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close3 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close4 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}.modal-close5 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close6 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close7 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close8 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close9 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close10 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close11 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close12 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close13 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close14 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close15 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close16 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close17 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close18 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close19 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+.modal-close20 {
+    color: red;
+    border: 0;
+    background: none;
+    font-size: 1.7em;
+    position: absolute;
+    bottom: 23em;
+    left: 13.5em;
+}
+/* Termina Modal close */
 .content1 {
     position: absolute;
     bottom: 0;
@@ -751,7 +932,6 @@ div .animation {
     justify-content: flex-end;
     flex-direction: column;
     background: linear-gradient(to top, #A3E4D7 70%, transparent);
-    font-weight: bold;
 }
 .box-one1 {
     width: 100%;
