@@ -31,9 +31,13 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .nosotros img {
-    width: 550px;
+    width: 500px;
     height:fit-content;
+}
 
+.nosotros img:hover{
+    transform: scale(1.1); /*Hace grande la imagen cuando la seleccionas, también, podemos hacerla más pequeña */
+    transition: 4s; /*Es el tiempo que tardará en hacerse grande */
 }
 
 .título2 {
@@ -43,8 +47,5 @@ font-family: 'Quicksand', sans-serif;
     font-family: 'Lora', serif;
     color: #010101;
 }
-
-
-
 
 
