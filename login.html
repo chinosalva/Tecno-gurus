@@ -5,20 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<<<<<<< HEAD
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/stylesContacto.css">
-=======
-    <link rel="stylesheet" href="assets/css/styleContacto.css">
-    <link rel="stylesheet" href="assets/css/style.css">
->>>>>>> 4f47c35e7737663cfc910fba4e09427972bcc034
+    <link rel="stylesheet" href="./assets/css/stylesLogin.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     
-    <title>Contácto - Botánicos</title>
+    <title>Botanicos</title>
   </head>
-  <body>    
+  <body>
 
     <!--------------------------------------------------Comienza Navbar----------------------------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -31,80 +26,112 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item ">
-                        <a class="nav-link Texto3" target="_blank" href="index.html">Inicio </a>
+                    <li class="nav-item">
+                        <a class="nav-link Texto3" href="index.html">Inicio </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link Texto3" target="_blank" href="nosotros.html">Nosotros</a>
+                        <a class="nav-link Texto3"  href="nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link Texto3" target="_blank" href="producto.html">Productos</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link Texto3" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
+                        <a class="nav-link Texto3"  href="producto.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link Texto3" target="_blank" href="#">Registro</a>
+                        <a class="nav-link Texto3"  href="./contacto2.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Texto3"  href="registro.html">Registro</a>
                     </li>
                     <li>
-                        <a class="nav-link Texto3" target="_blank" href="#">Login <i class="bi bi-person-circle"></i></a>
+                        <a class="nav-link active Texto3" href="login.html">Login <span class="sr-only">(current)</span><i class="bi bi-person-circle"></i></a>
                     </li>
                     <li>
-                        <a class="nav-link Texto3" href="#"><i class="bi bi-cart-fill"></i></a>
+                        <a class="nav-link Texto3"  href="#"><i class="bi bi-cart-fill"></i></a>
                     </li>
                     
                 </ul>
             </div>
         
-            
         </div>
     </nav>
     <!--------------------------------------------------Termina Navbar----------------------------------------------------------------->
 
-    
-
-
-    <!--------------------------------------------------Comienza Frame de Contacto--------------------------------------------------->
-<div class="container">
-    <div class="tituloFrame">
-        <div class="container">
-            <div>
-                <h1>Contáctanos</h1>                
-            </div>
-        </div>
-    </div>
-
-    <div class="parrafoFrame">
-        <div class="container">
-            <div>                        
-                <p>¿Tienes alguna duda? Llena el formulario y nos comunicaremos contigo lo más pronto posible</p>
-            </div>
+    <!-- loading -->
+    <div class="contenedor" id="contenedor">
+        <div class="cargando-wraper">
+            <div id="cargando-l">L</div>
+            <div id="cargando-o">O</div>
+            <div id="cargando-a">A</div>
+            <div id="cargando-d">d</div>
+            <div id="cargando-i">I</div>
+            <div id="cargando-n">N</div>
+            <div id="cargando-g">G</div>
         </div>
     </div>
     
-    <div class="container" id="columnaPrincipal">
-        <div class="mb-3">
-            <label for="exampleFormControlNombre" class="form-label">Nombre</label>
-            <input class="form-control" id="inputNombre" placeholder="Nombre" rows="1"></input>
+    <!-- Termina Loading -->
+
+   <!--------------------------------------------------Comienza Formulario Login----------------------------------------------------------------->
+   
+   <div class="container-fluid bg p-3 ">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-6 col-md3 ">
+            
+            
+            <form class="form-container">
+                <h1 class="text-center p-3 mt-0">Cuenta</h1>
+                <p class="text-center">Si ya eres un miembro, puede acceder con su correo y contaseña</p>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Correo Electronico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="plantas@mail.com">
+                  <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más..</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                
+                <button type="button" class=" btn-lg btn-block" id="boton">Entrar</button>
+                
+                <p class="p-3">¿No tiene cuenta? <a href=#>Registrese aqui</a></p>
+              </form>
+              
+
         </div>
-        <div class="mb-3">
-            <label for="exampleFormControlCorreo" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="inputCorreo" placeholder="nombre@ejemplo.com" rows="1">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlComentario" class="form-label">Comentarios</label>
-            <textarea class="form-control" id="inputComentario" placeholder="Comentarios" rows="5"></textarea>
-        </div>
-        <button type="submit" id="botonEnviar" style="width:100%">Enviar</button>
     </div>
-</div>
-    
-    <!--------------------------------------------------Termina Frame de Contacto--------------------------------------------------->
-    
+   </div>
+   
+   <!--------------------------------------------------Termina Formulario----------------------------------------------------------------->
+   
+   
 
 
 
-        <!------------------------------------------------------------Comienza Footer v2------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------------------------------------------Comienza Footer v2------------------------------------->
     <footer>
         <div class="imagenWave">
             <img class="mt-2 img-fluid"src="assets/images/homePage/BGWave.svg" alt="" style="width: 100%; height: 70%;">
@@ -116,23 +143,7 @@
                 <a class="d-flex align-middle" href="#"><img class="footer-brand-compressed"src="assets/images/header-02.png" alt=""></a>
                 
             </div>
-<<<<<<< HEAD
 
-        </div>
-        
-            <div class="row alle2 justify-content-end">
-                <a class="d-flex" href="mailto: karenlbfs@gmail.com"><i class="footerLink bi bi-envelope-fill "> </i>
-                    <div class="Texto3 footerText  ml-1">botanicos@gmail.com</div>
-                    
-                </a>
-                <a class="d-flex" href="#"><i class="footerLink bi bi-telephone-fill ml-2"></i>
-                    <div class="Texto3 footerText-item2 ml-1">+52 55-5555-5555</div>
-                </a>
-                <a class="footerLink"href="#"><i class=" bi bi-whatsapp ml-2"></i></a>
-                <a class="footerLink" href="#"> <i class="bi bi-facebook ml-2"></i></a>
-                <a class="footerLink" href="#"><i class="bi bi-instagram ml-2"></i></a>
-=======
-  
         </div>
         
             <div class="row alle2 justify-content-end">
@@ -141,17 +152,16 @@
                     
                 </a>
                 <a class="d-flex" target="_blank" href="tel:+5543587962"><i class="footerLink bi bi-telephone-fill ml-2"></i>
-                  <div class="Texto3 footerText-item2 ml-1">5543587962</div>
+                    <div class="Texto3 footerText-item2 ml-1">5543587962</div>
                 </a>
                 <a class="footerLink" target="_blank" href="https://wa.me/+525543587962?text=¡Estoy+interesado!"><i class=" bi bi-whatsapp ml-2"></i></a>
                 <a class="footerLink" target="_blank" href="https://m.facebook.com/profile.php?lst=100084572715957%3A100084572715957%3A1660855466&refid=17"> <i class="bi bi-facebook ml-2"></i></a>
                 <a class="footerLink" target="_blank" href="https://www.instagram.com/botanicosmx/"><i class="bi bi-instagram ml-2"></i></a>
->>>>>>> 4f47c35e7737663cfc910fba4e09427972bcc034
+            
             
         </div>
     </footer>
 
-<!------------------------------------------------------------Termina Footer v2------------------------------------->
 
 
 
@@ -165,10 +175,8 @@
 
 
 
-
-
-
-
+    <!-- JS -->
+    <script src="./assets/js/login.js"></script>
 
 
 

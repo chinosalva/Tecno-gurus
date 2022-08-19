@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora&family=Quicksand&display=swap');
+/* Familias de estilos:
+font-family: 'Inter', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+/* LOADING */
+.contenedor {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding: 0%;
+    background-color: #000;
+    z-index: 100000;
+}
+.cargando-wraper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.close {
+    opacity: 0;
+    transition: 1.5s;
+    display: none;
+}
+#cargando-l, #cargando-o, #cargando-a, #cargando-d, #cargando-i, #cargando-n, #cargando-g {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    font-size: 5em;
+    font-family: cursive;
+    top: 40%;
+    left: 0;
+    animation: fade 2s linear infinite;
+}
+#cargando-l{
+    animation-delay: .75s;
+}
+#cargando-o{
+    animation-delay: .1s;
+}
+#cargando-a{
+    animation-delay: 1.25s;
+}
+#cargando-d{
+    animation-delay: 1.50s;
+}
+#cargando-i{
+    animation-delay: 1.75s;
+}
+#cargando-n{
+    animation-delay: 2s;
+}
+#cargando-g{
+    animation-delay: 2.25s;
+}
+@keyframes fade {
+    0% {
+        text-shadow: 0 0 0 #A3E4D7;
+    }
+    80% {
+        text-shadow: 0 0 20px #fff;
+    }
+    100% {
+        text-shadow: 0 0 20px #A3E4D7;
+    }
+}
+/* TERMINA LOADING */
+
+.título1 {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 4rem;
+    font-family: 'Lora', serif;
+    color: #010101;
+}
+/*Texto de navbar y footer*/
+.Texto3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+
+
+.nosotros {
+    padding-bottom: 35px;
+    padding-top: 35px;
+    font-size: 1..5rem;
+    font-family: 'Inter', sans-serif;
+    color: #010101;
+}
+
+.subtítulo {
+        font-size: 2rem;
+}
+
+.nosotros .row {
+    display: flex;
+    align-items: center;
+}
+
+.nosotros img {
+    width: 500px;
+    height:fit-content;
+}
+
+.nosotros img:hover{
+    transform: scale(1.1); /*Hace grande la imagen cuando la seleccionas, también, podemos hacerla más pequeña */
+    transition: 4s; /*Es el tiempo que tardará en hacerse grande */
+}
+
+.título2 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 35px;
+    font-family: 'Lora', serif;
+    color: #010101;
+}
+

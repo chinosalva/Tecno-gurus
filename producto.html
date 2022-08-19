@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Productos</title>
     <link rel="stylesheet" href="./productos.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Bootstrap CSS -->
@@ -14,7 +14,7 @@
 <body>
     <!--------------------------------------------------Comienza Navbar----------------------------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container p-3">
+        <div class="container">
             
             <a class="nav-brand" href="#"><img class="navbar-brand-normal"src="assets/images/botanicosLogo.png" alt=""></a>
             <a class="navbar-brand-compressed" href="#"><img src="assets/images/header-02.png" alt=""></a> 
@@ -23,23 +23,26 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link Texto3" href="./index.html">Inicio </a>
+                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link Texto3" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link Texto3"  href="./producto.html">Productos<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link Texto3" href="#">Nosotros</a>
+                        <a class="nav-link Texto3"  href="./contacto2.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link Texto3" href="#">Productos</a>
+                        <a class="nav-link Texto3"  href="./nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link Texto3" href="#">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link Texto3" href="#">Registro</a>
+                        <a class="nav-link Texto3"  href="registro.html">Registro</a>
                     </li>
                     <li>
-                        <a class="nav-link Texto3" href="#">Login <i class="bi bi-person-circle"></i></a>
+                        <a class="nav-link Texto3"  href="login.html">Login <i class="bi bi-person-circle"></i></a>
+                    </li>
+                    <li>
+                        <a class="nav-link Texto3"  href="#"><i class="bi bi-cart-fill"></i></a>
                     </li>
                     
                 </ul>
@@ -48,6 +51,22 @@
         </div>
     </nav>
     <!--------------------------------------------------Termina Navbar----------------------------------------------------------------->
+    <!-- loading -->
+    <div class="contenedor" id="contenedor">
+        <div class="cargando-wraper">
+            <div id="cargando-l">L</div>
+            <div id="cargando-o">O</div>
+            <div id="cargando-a">A</div>
+            <div id="cargando-d">d</div>
+            <div id="cargando-i">I</div>
+            <div id="cargando-n">N</div>
+            <div id="cargando-g">G</div>
+        </div>
+    </div>
+    
+    <!-- Termina Loading -->
+
+
 
 <!-- Comienza la parte de las cards -->
 
@@ -63,17 +82,9 @@
             </div>
         </div>
     </div>
-
-    <!-- <div class="container-fluid mt-5"> 
-        <div class="row">
-                <div class="col-sm-12 d-flex justify-content-center animation">
-                    <p><span>Plantas seleccionadas con todo nuestro amor</span></p>
-            </div>
-        </div>
-    </div> -->
-    <div id="botanicos">
         
-    </div> 
+    
+
 <!-- Empiezan los modales -->
     <section class="modal1">
         <div class="modal__container1">
@@ -678,6 +689,10 @@
 
 <!-- Terminan los modales -->
 
+
+
+
+
 <!-- Area de productos -->
     <div class="container text-center mt-5">
         <div class="row mt-3">
@@ -1001,19 +1016,18 @@
                     <div class="Texto3 footerText  ml-1">botanicos@gmail.com</div>
                     
                 </a>
-                <a class="d-flex" href="#"><i class="footerLink bi bi-telephone-fill ml-2"></i>
-                    <div class="Texto3 footerText-item2 ml-1">+52 55-5555-5555</div>
+                <a class="d-flex" target="_blank" href="tel:+5543587962"><i class="footerLink bi bi-telephone-fill ml-2"></i>
+                    <div class="Texto3 footerText-item2 ml-1">5543587962</div>
                 </a>
-                <a class="footerLink"href="#"><i class=" bi bi-whatsapp ml-2"></i></a>
-                <a class="footerLink" href="#"> <i class="bi bi-facebook ml-2"></i></a>
-                <a class="footerLink" href="#"><i class="bi bi-instagram ml-2"></i></a>
+                <a class="footerLink" target="_blank" href="https://wa.me/+525543587962?text=¡Estoy+interesado!"><i class=" bi bi-whatsapp ml-2"></i></a>
+                <a class="footerLink" target="_blank" href="https://m.facebook.com/profile.php?lst=100084572715957%3A100084572715957%3A1660855466&refid=17"> <i class="bi bi-facebook ml-2"></i></a>
+                <a class="footerLink" target="_blank" href="https://www.instagram.com/botanicosmx/"><i class="bi bi-instagram ml-2"></i></a>
             
         </div>
     </footer>
 
 <!------------------------------------------------------------Termina Footer v2------------------------------------->
-    
-    
+
 
 <!-- Termina parte de las cards -->
     <!-- JavaScript Bundle with Popper -->
