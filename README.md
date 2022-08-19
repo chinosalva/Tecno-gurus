@@ -12,7 +12,7 @@ Esto es solamente una prueba y una prueba más
 ---
 
 ## Integrantes:
-* Abel
+* Abel López
 * Abigail
 * Aline
 * Edith
