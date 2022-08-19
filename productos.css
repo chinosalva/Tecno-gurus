@@ -1,4 +1,5 @@
-html, body, div, span, applet, object, iframe,
+
+/* Termina Mario */html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -41,7 +42,31 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Mario 
+.mario {
+        width: 5px;
+        height: 5px;
+        box-shadow: 0px, 0px, 0px, transparent,
+        130px 5px #ffa500,
+        135px 5px #ffa500,
+        140px 5px #ffa500,
+        95px 10px #de4513,
+        100px 10px #de4513,
+        105px 10px #de4513,
+        110px 10px #de4513,
+        115px 10px #de4513,
 
+    }
+    @keyframes jump{
+    0%,
+    100% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(100px);
+    }
+}
+Termina Mario */
 
 
 
@@ -81,18 +106,18 @@ span:hover {
 .card {
     width: 300px;
     height: 400px;
-    border-radius: 30px;
+    border-radius: 50px;
     overflow: hidden;
     position: relative;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     cursor: pointer;
-    transition: all .25s ease;
+    transition: all .25s ease; 
     backface-visibility: hidden;
 }
 .card img {
-    transform: scale(1.20);
+    transform: scale(1.25);
 }
 .card:hover {
     transform: scale(.9);
@@ -105,7 +130,7 @@ span:hover {
     opacity: 1;
 }
 .card:hover img {
-    transform: scale(1.25);
+    transform: scale(1);
 }
 .card:after {
     width: 100%;
