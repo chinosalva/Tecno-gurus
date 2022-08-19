@@ -1,3 +1,12 @@
+const loader = document.getElementById("loaderid")
+window.addEventListener("load", function() {
+  loader.classList.toggle(".loader2")
+  // loader.style.display = "none"
+})
+// window.addEventListener('load', function (){
+//   document.getElementById('loader').classList.toggle('loader2')
+// })
+
 const planta1 = document.getElementById('planta1')
 const modalPlanta1 = document.querySelector('.modal1')
 planta1.addEventListener('click', function(e) {
@@ -242,3 +251,6 @@ closeModal21.addEventListener('click', function(e) {
   e.preventDefault
   modalPlanta21.classList.remove('modal1--show')
 })
+
+
+
