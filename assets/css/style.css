@@ -15,13 +15,26 @@ font-family: 'Quicksand', sans-serif;
     
     font-size: 4rem;
     font-family: 'Lora', serif;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
     color: #010101;
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+    color: #010101;
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 }
 
 /*Párrafos*/
 .Texto1{
     font-size: 1.5rem;
     font-family: 'Inter', sans-serif;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    color: black;
+=======
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     color: #010101;
 }
 .Texto1n{
@@ -29,11 +42,23 @@ font-family: 'Quicksand', sans-serif;
     font-family: 'Inter', sans-serif;
     color: #010101;
     font-weight: 200;
+<<<<<<< HEAD
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 }
 .Texto2{
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    color: black;
+=======
     color: #010101;
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+    color: #010101;
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 }
 /*Texto de navbar y footer*/
 .Texto3{
@@ -53,12 +78,21 @@ font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
 }
 /*********************************Home Page*************************************************/
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 .WelcomeFrame{
     background-color: #00716D;
 }
 .wF1{
     background-color: white;
 }
+<<<<<<< HEAD
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 .BienvenidoFrame{
     height: 100%;
     padding-top: 15%;
@@ -79,6 +113,11 @@ font-family: 'Quicksand', sans-serif;
 .bi-heart-fill{
     font-size: 1rem;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 /*Animación*/
 .fade-in-text-Bienvenido {
     
@@ -113,6 +152,10 @@ font-family: 'Quicksand', sans-serif;
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+<<<<<<< HEAD
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 .bi-arrow-right{
     color: black;
     font-size: 1rem;
@@ -132,6 +175,11 @@ font-family: 'Quicksand', sans-serif;
     height: 550px;
    
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 .botonIni{
     background: #FAD58F;
 /* Primary/200 */
@@ -144,6 +192,10 @@ font-family: 'Quicksand', sans-serif;
     background-color: rgb(255, 142, 3);
     transform: scale(1.1);
 }
+<<<<<<< HEAD
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 .HpPO{
     
     background-color: #EDEDED;
@@ -153,6 +205,17 @@ font-family: 'Quicksand', sans-serif;
     height: 100%;
 }
 .more{
+<<<<<<< HEAD
+<<<<<<< HEAD
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/***************************Footer********************************************/
+=======
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -176,6 +239,10 @@ font-family: 'Quicksand', sans-serif;
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 /***************************Footer*******************************************
+<<<<<<< HEAD
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 footer{
     margin-top: 6rem;
     background-color: #EDEDED;
@@ -184,7 +251,15 @@ footer{
     list-style: none;
 }
 .footerLink{
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /*font-size: 1.2vw;*/
+=======
     
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+    
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     font-size: 1rem;
     color: black; 
     margin-top: 1rem;
@@ -209,6 +284,15 @@ footer{
 .footerText-item2{
     margin-top: 1rem;
     
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+
+/* Para dispositivos de 769px y menores */
+@media only screen and (max-width: 769px) {
+=======
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 }*/
 /***************************Footer********************************************/
 footer{
@@ -278,6 +362,10 @@ footer{
 
 /* Para dispositivos de 769px y menores */
 @media only screen and (max-width: 1024px) {
+<<<<<<< HEAD
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     /*------------------Títulos------------------------------------*/
     .Titulo{
         font-size: 10vw;
@@ -287,11 +375,22 @@ footer{
     .Texto1{
         font-size: 5vw;
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+    .Texto2{
+        font-size: 3.5vw;
+=======
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     .Texto1n{
         font-size: 5.5vw;
     }
     .Texto2{
         font-size: 3vw;/*3.5*/
+<<<<<<< HEAD
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     }
 
     /*------------------------navbar---------------------------------*/
@@ -301,7 +400,15 @@ footer{
     }
     .navbar-brand-compressed{
         display: flex;
+<<<<<<< HEAD
+<<<<<<< HEAD
+        height: 9vw;
+=======
         height: 6vw;
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+        height: 6vw;
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     }
     
     /*------------------------Home Page content*--------------------------*/
@@ -309,6 +416,14 @@ footer{
         font-size: 3.5vw;
 
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+  
+    .BienvenidoFrame{
+        margin-top: 0vw;
+=======
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     .WelcomeFrame{
         background-color: white;
     }
@@ -319,13 +434,29 @@ footer{
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 50px;
+<<<<<<< HEAD
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     }
     .bi-heart-fill{
         font-size: 3.5vw;
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+    /*---------------------Footer------------------------------------*/
+=======
     
 
     /*---------------------Footer v1------------------------------------
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+    
+
+    /*---------------------Footer v1------------------------------------
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     .footerText{
         display: none;
     }
@@ -333,7 +464,15 @@ footer{
         font-size: .8rem;
         margin-top: 1.2rem;
        /* margin-top: 3%;*/
+<<<<<<< HEAD
+<<<<<<< HEAD
+    }
+=======
     /*}
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+    /*}
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
 
     .footer-brand{
         display: none;
@@ -342,6 +481,22 @@ footer{
         margin-bottom: 1rem;
     }*/
     
+<<<<<<< HEAD
+<<<<<<< HEAD
+    .footer-brand-compressed{
+        display: flex;
+        /*height: 50%;*/
+        height: 9vw;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 1rem;
+        
+        
+    }
+}
+=======
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
     /*.footer-brand-compressed{
         display: flex;
         /*height: 50%;*/
@@ -467,3 +622,7 @@ footer{
     
 
 
+<<<<<<< HEAD
+>>>>>>> 4fadd759423ad2403a94dff07164819ebe3eccc0
+=======
+>>>>>>> cce2d2e36c9a441fffc78fca4ebbb3f5c174a8dc
