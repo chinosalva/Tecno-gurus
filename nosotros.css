@@ -12,6 +12,12 @@ font-family: 'Quicksand', sans-serif;
     font-family: 'Lora', serif;
     color: #010101;
 }
+/*Texto de navbar y footer*/
+.Texto3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+
 
 .nosotros {
     padding-bottom: 35px;
@@ -47,5 +53,4 @@ font-family: 'Quicksand', sans-serif;
     font-family: 'Lora', serif;
     color: #010101;
 }
-
 
