@@ -15,17 +15,13 @@ font-family: 'Quicksand', sans-serif;
     
     font-size: 4rem;
     font-family: 'Lora', serif;
-<<<<<<< HEAD
     color: #010101;
-=======
->>>>>>> Aline
 }
 
 /*Párrafos*/
 .Texto1{
     font-size: 1.5rem;
     font-family: 'Inter', sans-serif;
-<<<<<<< HEAD
     color: #010101;
 }
 .Texto1n{
@@ -33,18 +29,11 @@ font-family: 'Quicksand', sans-serif;
     font-family: 'Inter', sans-serif;
     color: #010101;
     font-weight: 200;
-=======
-    color: black;
->>>>>>> Aline
 }
 .Texto2{
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
-<<<<<<< HEAD
     color: #010101;
-=======
-    color: black;
->>>>>>> Aline
 }
 /*Texto de navbar y footer*/
 .Texto3{
@@ -64,15 +53,12 @@ font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
 }
 /*********************************Home Page*************************************************/
-<<<<<<< HEAD
 .WelcomeFrame{
     background-color: #00716D;
 }
 .wF1{
     background-color: white;
 }
-=======
->>>>>>> Aline
 .BienvenidoFrame{
     height: 100%;
     padding-top: 15%;
@@ -93,7 +79,6 @@ font-family: 'Quicksand', sans-serif;
 .bi-heart-fill{
     font-size: 1rem;
 }
-<<<<<<< HEAD
 /*Animación*/
 .fade-in-text-Bienvenido {
     
@@ -128,8 +113,6 @@ font-family: 'Quicksand', sans-serif;
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
-=======
->>>>>>> Aline
 .bi-arrow-right{
     color: black;
     font-size: 1rem;
@@ -149,7 +132,6 @@ font-family: 'Quicksand', sans-serif;
     height: 550px;
    
 }
-<<<<<<< HEAD
 .botonIni{
     background: #FAD58F;
 /* Primary/200 */
@@ -162,8 +144,6 @@ font-family: 'Quicksand', sans-serif;
     background-color: rgb(255, 142, 3);
     transform: scale(1.1);
 }
-=======
->>>>>>> Aline
 .HpPO{
     
     background-color: #EDEDED;
@@ -173,7 +153,6 @@ font-family: 'Quicksand', sans-serif;
     height: 100%;
 }
 .more{
-<<<<<<< HEAD
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -197,14 +176,6 @@ font-family: 'Quicksand', sans-serif;
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 /***************************Footer*******************************************
-=======
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-
-/***************************Footer********************************************/
->>>>>>> Aline
 footer{
     margin-top: 6rem;
     background-color: #EDEDED;
@@ -213,11 +184,7 @@ footer{
     list-style: none;
 }
 .footerLink{
-<<<<<<< HEAD
     
-=======
-    /*font-size: 1.2vw;*/
->>>>>>> Aline
     font-size: 1rem;
     color: black; 
     margin-top: 1rem;
@@ -242,7 +209,6 @@ footer{
 .footerText-item2{
     margin-top: 1rem;
     
-<<<<<<< HEAD
 }*/
 /***************************Footer********************************************/
 footer{
@@ -312,12 +278,6 @@ footer{
 
 /* Para dispositivos de 769px y menores */
 @media only screen and (max-width: 1024px) {
-=======
-}
-
-/* Para dispositivos de 769px y menores */
-@media only screen and (max-width: 769px) {
->>>>>>> Aline
     /*------------------Títulos------------------------------------*/
     .Titulo{
         font-size: 10vw;
@@ -327,16 +287,11 @@ footer{
     .Texto1{
         font-size: 5vw;
     }
-<<<<<<< HEAD
     .Texto1n{
         font-size: 5.5vw;
     }
     .Texto2{
         font-size: 3vw;/*3.5*/
-=======
-    .Texto2{
-        font-size: 3.5vw;
->>>>>>> Aline
     }
 
     /*------------------------navbar---------------------------------*/
@@ -346,11 +301,7 @@ footer{
     }
     .navbar-brand-compressed{
         display: flex;
-<<<<<<< HEAD
         height: 6vw;
-=======
-        height: 9vw;
->>>>>>> Aline
     }
     
     /*------------------------Home Page content*--------------------------*/
@@ -358,7 +309,6 @@ footer{
         font-size: 3.5vw;
 
     }
-<<<<<<< HEAD
     .WelcomeFrame{
         background-color: white;
     }
@@ -369,24 +319,13 @@ footer{
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 50px;
-=======
-  
-    .BienvenidoFrame{
-        margin-top: 0vw;
->>>>>>> Aline
     }
     .bi-heart-fill{
         font-size: 3.5vw;
     }
-<<<<<<< HEAD
     
 
     /*---------------------Footer v1------------------------------------
-=======
-
-
-    /*---------------------Footer------------------------------------*/
->>>>>>> Aline
     .footerText{
         display: none;
     }
@@ -394,11 +333,7 @@ footer{
         font-size: .8rem;
         margin-top: 1.2rem;
        /* margin-top: 3%;*/
-<<<<<<< HEAD
     /*}
-=======
-    }
->>>>>>> Aline
 
     .footer-brand{
         display: none;
@@ -407,7 +342,6 @@ footer{
         margin-bottom: 1rem;
     }*/
     
-<<<<<<< HEAD
     /*.footer-brand-compressed{
         display: flex;
         /*height: 50%;*/
@@ -469,16 +403,3 @@ footer{
     
 
 
-=======
-    .footer-brand-compressed{
-        display: flex;
-        /*height: 50%;*/
-        height: 9vw;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 1rem;
-        
-        
-    }
-}
->>>>>>> Aline
