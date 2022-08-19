@@ -1,9 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora&family=Quicksand&display=swap');
 /* Familias de estilos:
 font-family: 'Inter', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Quicksand', sans-serif;
 */
+
+/****************************** Estandarización de estilos *******************************/
 
 .título1 {
     text-align: center;
