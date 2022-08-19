@@ -212,7 +212,7 @@ footer{
 }*/
 /***************************Footer********************************************/
 footer{
-    margin-top: 6rem;
+    margin-top: auto;
     background-color: #EDEDED;
     position: relative;
     
