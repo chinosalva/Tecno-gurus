@@ -1033,7 +1033,36 @@ div .animation {
     font-size: 1em;
     font-weight: bold;
 }
-.box-two1 button {
+
+.btn {
+    display: inline-block;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid #3c67e3;
+    border-radius: 30em !important;
+}
+.btn:hover {
+    animation:  pulse 3s infinite;
+}
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 25px #5ddcff,
+        0 0 50px #4e00c2;
+    }
+    60% {
+        box-shadow: 0 0 25px #ffc65d,
+        0 0 50px #bc00c2;
+    }
+    100% {
+        box-shadow: 0 0 25px #ffe15d,
+        0 0 50px #c20000;
+    }
+}
+
+/* .box-two1 button {
     font-weight: bold;
     height: 3em;
     border: none;
@@ -1044,7 +1073,7 @@ div .animation {
     background-color: #0970e5;
     border-radius: 6px;
     cursor: pointer;
-}
+} */
 
 /* Loader */
 #loaderid {
