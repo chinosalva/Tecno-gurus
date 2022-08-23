@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora&family=Quicksand&display=swap');
 /* Familias de estilos:
 font-family: 'Inter', sans-serif;
@@ -5,6 +9,9 @@ font-family: 'Lora', serif;
 font-family: 'Quicksand', sans-serif;
 */
 
+<<<<<<< HEAD
+/****************************** Estandarización de estilos *******************************/
+=======
 /* LOADING */
 .contenedor {
     position: fixed;
@@ -69,6 +76,7 @@ font-family: 'Quicksand', sans-serif;
     }
 }
 /* TERMINA LOADING */
+>>>>>>> 4f47c35e7737663cfc910fba4e09427972bcc034
 
 .título1 {
     text-align: center;
