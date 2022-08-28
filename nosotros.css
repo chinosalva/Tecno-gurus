@@ -13,9 +13,6 @@ font-family: 'Quicksand', sans-serif;
 /****************************** Estandarización de estilos *******************************/
 =======
 /* LOADING */
-
-
-
 .contenedor {
     position: fixed;
     width: 100%;
@@ -86,7 +83,7 @@ font-family: 'Quicksand', sans-serif;
     padding-top: 35px;
     font-size: 4rem;
     font-family: 'Lora', serif;
-    color: #d21a1a;
+    color: #010101;
 }
 /*Texto de navbar y footer*/
 .Texto3{
@@ -100,7 +97,7 @@ font-family: 'Quicksand', sans-serif;
     padding-top: 35px;
     font-size: 1..5rem;
     font-family: 'Inter', sans-serif;
-    color: #ad0c0c;
+    color: #010101;
 }
 
 .subtítulo {
@@ -127,6 +124,6 @@ font-family: 'Quicksand', sans-serif;
     font-size: 3rem;
     padding-bottom: 35px;
     font-family: 'Lora', serif;
-    color: #a01010;
+    color: #010101;
 }
 
