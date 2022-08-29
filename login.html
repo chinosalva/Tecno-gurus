@@ -13,7 +13,7 @@
     
     <title>Botanicos</title>
   </head>
-  <body>
+  <body style="background-color: #00716D;">
 
     <!--------------------------------------------------Comienza Navbar----------------------------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -72,65 +72,52 @@
 
    <!--------------------------------------------------Comienza Formulario Login----------------------------------------------------------------->
    
-   <div class="container-fluid bg p-3 ">
-    <div class="row justify-content-center">
-        <div class="col-12 col-sm-6 col-md3 ">
-            
-            
-            <form class="form-container">
-                <h1 class="text-center p-3 mt-0">Cuenta</h1>
-                <p class="text-center">Si ya eres un miembro, puede acceder con su correo y contaseña</p>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Correo Electronico</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="plantas@mail.com">
-                  <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más..</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Contraseña</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                
-                <button type="button" class=" btn-lg btn-block" id="boton">Entrar</button>
-                
-                <p class="p-3">¿No tiene cuenta? <a href=#>Registrese aqui</a></p>
-              </form>
-              
+   <form id="formularioRegistro justify-content-center" class="formsPadre">
+    
+    <div class="forms">    
+        <main class="container">
+        
+        <h1 class="title"><center>Iniciar sesión</center></h1>
 
+        <p id="texto"> 
+            <center>
+            Si ya es un miembro, puede acceder con su correo y contraseña
+            </center>
+        </p>
+         
+        <div class="col">
+            
+            <div class="inputbox ml-auto mr-auto" style="margin: 5%;">
+                <input type="text" id="inputEmail" required>
+                <label id="alertaEmail" for="inputEmail" class="Texto2">Email<span id="alertEmailIcono"></span> </label>
+            </div>
+
+            <div class="inputbox ml-auto mr-auto">
+                <input type="text" id="inputPassword" required>
+                <label id="contra" for="inputPassword" class="Texto2">Contraseña<span id="alertContraIcon"></span></label> 
+            </div> 
+
+            <div class="row"><small class="ejemplo ejC3" class="form-text text-muted 8-10 caracteres (números,una minúscula y una mayúscula)"></small> </div>
+            <span class="error_form" id="error_message"></span>
+             
         </div>
-    </div>
-   </div>
+
+        <div class="forms d-flex justify-content-center">
+            <button type="submit" class="botonIni mt-3">Enviar</button>
+        </div>  
+
+         </main> 
+</div>
+</form>
+
+    <p> 
+    <center>
+        ¿No tiene cuenta? Regístrese aquí
+    </center>
+    </p>
    
    <!--------------------------------------------------Termina Formulario----------------------------------------------------------------->
    
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!------------------------------------------------------------Comienza Footer v2------------------------------------->
     <footer>
         <div class="imagenWave">
@@ -162,23 +149,8 @@
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- JS -->
     <script src="./assets/js/login.js"></script>
-
-
 
     <!-- Importación de Bootstrap option 1 -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
