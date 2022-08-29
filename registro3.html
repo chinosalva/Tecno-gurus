@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styleRegistro3.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   
+    <title>Registro</title>
+</head>
+<body style="background-color: #00716D;">
+    <!--------------------------------------------------Comienza Navbar----------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            
+            <a class="nav-brand" href="#"><img class="navbar-brand-normal"src="assets/images/botanicosLogo.png" alt=""></a>
+            <a class="navbar-brand-compressed" href="#"><img src="assets/images/header-02.png" alt=""></a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link Texto3" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Texto3"  href="./producto.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Texto3"  href="./contacto2.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Texto3"  href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link Texto3"  href="#">Registro</a>
+                    </li>
+                    <li>
+                        <a class="nav-link Texto3"  href="./login.html">Login <i class="bi bi-person-circle"></i></a>
+                    </li>
+                    <li>
+                        <a class="nav-link Texto3"  href="#"><i class="bi bi-cart-fill"></i></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        </div>
+    </nav>
+    <!--------------------------------------------------Termina Navbar----------------------------------------------------------------->
+    <div class="bodyForms" >
+
+        <form id="formularioRegistro" class="formsPadre" >
+            <h1 class="Titulo text-center ">Registro</h1>
+            <div class="forms mb-2">
+                
+                <div class="inputbox ml-auto mr-auto">
+                    <input type="text" id="inputName" required>
+                    <label id= "alertaNombre" for="inputName" class="Texto2">Nombre Completo<span class="info ml-3">(Pepe Lopez Perez)</span></label>
+                    <span id="alertNombreIcono" class="ejemplo "></span>
+                   
+                    
+                </div>
+                <div class="inputbox ml-auto mr-auto">
+                    <input type="text" id="inputEmail" required>
+                    <label id="alertaEmail"for="inputEmail" class="Texto2">Email<span class="info ml-3">(hola@gmail.com)</span></label>
+                    <span class="ejemplo ejC4" id="alertEmailIcono"></span>
+                </div>
+            </div>
+            <div class="forms">
+                <div class="inputbox ml-auto mr-auto">
+                    <input type="text" id="inputTelefono" required>
+                    <label id="alertaTelefono" for="inputTelefono" class="Texto2">Teléfono<span class="info ml-3">(10 dígitos)</span></label>
+                    <span id="alertTelIcono" class="ejemplo"></span>
+                    <!--<small class="ejemplo" class="form-text text-muted">Ejemplo: 55-5555-5555</small>-->
+                </div>
+                <div class="inputbox ml-auto mr-auto">
+                    <input type="text" id="inputPassword" required>
+                    <label id="contra" for="inputPassword" class="Texto2 d-inline">Contraseña<span class="info ml-3">(8-10 caracteres)</span></label>
+                    <span class="ejemplo ejC3" id="alertContraIcono"></span>
+                    <!--<span class="error_form" id="error_message">-->
+
+                </div>
+            </div>
+           
+         
+      
+            <div class="forms d-flex justify-content-center">
+                <button type="submit" class="botonIni mt-3">Enviar</button>
+            </div>
+            
+            
+        </form>
+            
+    </div>
+    <div class="container">
+        <div class="insturcciones">
+            <div class="row">
+                <div class="col-2 col-lg-3"></div>
+                <div class="col-8 col-lg-6 justify-content-center">
+                    <div class="Texto2 text-center info2">Instrucciones:</div>
+                    <div class="Texto2  info2">La contraseña debe tener mínimo un número, una minúscula y mayúscula.</div>
+                    <div class="Texto2 info2">El nombre debe de constar de mínimo un nombre  de pila y dos apellidos.</div>
+                </div>
+                <div class="col-2 col-lg-3"></div>
+            
+            </div>
+            
+            
+        </div>
+    </div>
+    <!------------------------------------------------------------Comienza Footer v2------------------------------------->
+    <footer>
+        <div class="imagenWave">
+            <img class="mt-2 img-fluid"src="assets/images/homePage/BGWave.svg" alt="" style="width: 100%; height: 70%;">
+        </div>
+        <div class="container prueba1" >
+            
+            <div class="row pl-3 pr-3 alle">
+                <a class="footer-brand" href="#"><img src="assets/images/botanicosLogo.png" alt=""></a> 
+                <a class="d-flex align-middle" href="#"><img class="footer-brand-compressed"src="assets/images/header-02.png" alt=""></a>
+                
+            </div>
+
+        </div>
+        
+            <div class="row alle2 justify-content-end">
+                <a class="d-flex" href="mailto: botanicosmx@gmail.com" target="_blank"><i class="footerLink bi bi-envelope-fill "> </i>
+                    <div class="Texto3 footerText  ml-1">botanicosmx@gmail.com</div>
+                    
+                </a>
+                <a class="d-flex" target="_blank" href="tel:+5543587962"><i class="footerLink bi bi-telephone-fill ml-2"></i>
+                    <div class="Texto3 footerText-item2 ml-1">5543587962</div>
+                </a>
+                <a class="footerLink" target="_blank" href="https://wa.me/+525543587962?text=¡Estoy+interesado!"><i class=" bi bi-whatsapp ml-2"></i></a>
+                <a class="footerLink" target="_blank" href="https://m.facebook.com/profile.php?lst=100084572715957%3A100084572715957%3A1660855466&refid=17"> <i class="bi bi-facebook ml-2"></i></a>
+                <a class="footerLink" target="_blank" href="https://www.instagram.com/botanicosmx/"><i class="bi bi-instagram ml-2"></i></a>
+       
+            
+        </div>
+    </footer>
+    <script src="assets/js/registro3.js"></script>
+<!------------------------------------------------------------Termina Footer v2------------------------------------->
+<!-- Importación de Bootstrap option 1 -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        
+</body>
+</html>
