@@ -1,530 +1,186 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+* {
     margin: 0;
     padding: 0;
+    
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora&family=Quicksand&display=swap');
-/* Familias de estilos:
-font-family: 'Inter', sans-serif;
-font-family: 'Lora', serif;
-font-family: 'Quicksand', sans-serif;
-*/
 
-/* LOADING */
-.contenedor {
-    position: fixed;
+body{
+    --bg-color: #00716D;
+    --primary-color: #FAD58F;
+    justify-content: center;
+    align-items: center;
+}
+
+.formsPadre {
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    padding: 0%;
-    background-color: #000;
-    z-index: 100000;
-}
-.cargando-wraper {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-.close {
-    opacity: 0;
-    transition: 1.5s;
-    display: none;
-}
-#cargando-l, #cargando-o, #cargando-a, #cargando-d, #cargando-i, #cargando-n, #cargando-g {
-    position: relative;
-    display: inline-block;
-    color: transparent;
-    font-size: 5em;
-    font-family: cursive;
-    top: 40%;
-    left: 0;
-    animation: fade 2s linear infinite;
-}
-#cargando-l{
-    animation-delay: .75s;
-}
-#cargando-o{
-    animation-delay: .1s;
-}
-#cargando-a{
-    animation-delay: 1.25s;
-}
-#cargando-d{
-    animation-delay: 1.50s;
-}
-#cargando-i{
-    animation-delay: 1.75s;
-}
-#cargando-n{
-    animation-delay: 2s;
-}
-#cargando-g{
-    animation-delay: 2.25s;
-}
-@keyframes fade {
-    0% {
-        text-shadow: 0 0 0 #A3E4D7;
-    }
-    80% {
-        text-shadow: 0 0 20px #fff;
-    }
-    100% {
-        text-shadow: 0 0 20px #A3E4D7;
-    }
-}
-/* TERMINA LOADING */
-
-/****************************** Estandarización de estilos *******************************/
-/*Títulos*/
-.Titulo{
-    
-    font-size: 4rem;
-    font-family: 'Lora', serif;
-    color: #010101;
-}
-
-/*Párrafos*/
-.Texto1{
-    font-size: 1.5rem;
-    font-family: 'Inter', sans-serif;
-    color: #010101;
-}
-.Texto1n{
-    font-size: 1.8rem;
-    font-family: 'Inter', sans-serif;
-    color: #010101;
-    font-weight: 200;
-}
-.Texto2{
-    font-size: 1rem;
-    font-family: 'Inter', sans-serif;
-    color: #010101;
-}
-/*Texto de navbar y footer*/
-.Texto3{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
-}
-/****************************************************************************************/
-
-/*********************************Nav bar ************************************************/
-.navbar-brand-compressed{
-    display: none;
-}
-.navbar-brand-normal{
-    height: 3rem; /*cambio de tamaño*/
-}
-.bi-cart-fill{
-    font-size: 1rem;
-}
-/*********************************Home Page*************************************************/
-.WelcomeFrame{
-    background-color: #00716D;
-}
-.wF1{
-    background-color: white;
-}
-.BienvenidoFrame{
-    height: 100%;
-    padding-top: 15%;
-    padding-left: 50px;
-    padding-right: 60px;
-    padding-bottom: 50px;
-
-}
-
-.slogan{
-    padding-top: 5vh;
-  
-}
-.textIntro{
-    padding-top: 3vh;
-    
-}
-.bi-heart-fill{
-    font-size: 1rem;
-}
-/*Animación*/
-.fade-in-text-Bienvenido {
-    
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-  }
-  
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-.bi-arrow-right{
-    color: black;
-    font-size: 1rem;
-}
-.bi-truck{
-    font-size: 4rem;
-    
-}
-.bi-heart{
-    font-size: 4rem;
-}
-.bi-chat-left{
-    font-size: 4rem;
-}
-.imagenInicio{
-    object-fit: cover;  
-    height: 550px;
+    padding: 30px;
    
 }
-.botonIni{
-    background: #FAD58F;
-/* Primary/200 */
 
+.forms {
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.p {
+    padding: 30px;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+}
+
+.inputbox {
+    position: relative;
+    height: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.inputbox label {
+    position: relative;
+    top:0;
+    left: 10px;
+    font-size: 20px;
+    color: var(--primary-color);
+    transition: .5s;
+    cursor: text;
+}
+
+.inputbox input {
+    position: absolute;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    transition: .5s;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.inputbox input:focus,
+.inputbox input:valid {
+    height: 100%;
+}
+
+.inputbox input:focus + label,
+.inputbox input:valid + label {
+    top: -40px;
+    left: 0;
+}
+
+
+button {
+    justify-self: center;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 56px;
+    
+    background: #FAD58F;
     border: 4px solid #BBF7D0;
     box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
-    border-radius: 56px;
+    
+    
 }
-.botonIni:hover{
+button:hover{
     background-color: rgb(255, 142, 3);
     transform: scale(1.1);
 }
-.HpPO{
-    
-    background-color: #EDEDED;
-}
-.HpPO1{ 
-    width: 100%;
-    height: 100%;
-}
-.more{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.diferenciacion{
-    background-color:  #FAD58F;
-}
-.reviews{
-    background-color:  #EDEDED;
- }
-.bi-star-fill{
-    color: rgb(176, 176, 9);
 
-}
-.animacionR{
-    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-    
-    cursor: pointer;
-}
-.animacionR:hover{
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
-/***************************Footer*******************************************
-footer{
-    margin-top: 6rem;
-    background-color: #EDEDED;
-}
-.footerlist{
-    list-style: none;
-}
-.footerLink{
-    
-    font-size: 1rem;
-    color: black; 
-    margin-top: 1rem;
-}
-
-.footer-brand-compressed{
-    display: none;
-}
-.footer-brand img{
-    margin-bottom: auto;
-    margin-top: auto;
-    height: 3rem;
-}
-.footer-brand{
-    display: flex;
-    align-items: center;
-}
-.footerText{
-    margin-top: 1rem;
-    
-}
-.footerText-item2{
-    margin-top: 1rem;
-    
-}*/
-/***************************Footer********************************************/
-footer{
-    margin-top: auto;
-    background-color: #EDEDED;
-    position: relative;
-    
-    
-}
-
-.footerlist{
-    list-style: none;
-    margin-left: 50vw;
-    
-    
-}
-.footerLink{
-    /*font-size: 1.2vw;*/
-    font-size: 1rem;
-    color: rgb(216, 216, 216); 
-    margin-top: 1rem;
-  
-    
-}
-
-.footer-brand-compressed{
-    display: none;
-}
-.footer-brand img{
-    padding-bottom: 5%;
-    padding-top: auto;
-    height: 3rem;
-    
-}
-.footer-brand{
-    display: flex;
-    align-items: center;
-}
-.footerText{
-    margin-top: 1rem;
-    color: rgb(216, 216, 216);
-    
-}
-.footerText-item2{
-    margin-top: 1rem;
-    color: rgb(216, 216, 216);
-}
-
-.alle{
-    position: absolute;
-    height: 100%;
-    bottom: 19%;
-    left: auto;
-}
-.alle2{
-    width: 90vw;
-    position: absolute;
-    bottom: 5%;
-    padding-bottom: .2rem;
-    margin-right: 0px;
-    display: flex;
-    
-}
-.bi-instagram{
-    margin-right: 50px;
-}
-
-/* Para dispositivos de 769px y menores */
-@media only screen and (max-width: 1024px) {
-    /*------------------Títulos------------------------------------*/
-    .Titulo{
-        font-size: 10vw;
-    }
-
-    /*-----------------------Párrafos-----------------------------*/
-    .Texto1{
-        font-size: 5vw;
-    }
-    .Texto1n{
-        font-size: 5.5vw;
-    }
-    .Texto2{
-        font-size: 3vw;/*3.5*/
-    }
-
-    /*------------------------navbar---------------------------------*/
-    .nav-brand{
+@media only screen and (max-width: 576px) {
+    .inputbox{
+        width: 70%;
         
-        display: none;
+        left: 5vw;
     }
-    .navbar-brand-compressed{
-        display: flex;
-        height: 6vw;
-    }
-    
-    /*------------------------Home Page content*--------------------------*/
-    .bi-arrow-right{
-        font-size: 3.5vw;
-
-    }
-    .WelcomeFrame{
-        background-color: white;
-    }
-    .BienvenidoFrame{
-        margin-top: 0vw;
-        /*text-align: center;*/
-        padding-top: 15%;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 50px;
-    }
-    .bi-heart-fill{
-        font-size: 3.5vw;
-    }
-    
-
-    /*---------------------Footer v1------------------------------------
-    .footerText{
-        display: none;
-    }
-    .footerText-item2{
-        font-size: .8rem;
-        margin-top: 1.2rem;
-       /* margin-top: 3%;*/
-    /*}
-
-    .footer-brand{
-        display: none;
-    }
-    /*.footerLink{
-        margin-bottom: 1rem;
-    }*/
-    
-    /*.footer-brand-compressed{
-        display: flex;
-        /*height: 50%;*/
-        /*height: 9vw;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 1rem;
+}
+@media only screen and (min-width: 768px) {
+    .inputbox{
+        width: 70%;
         
+        left: 5vw;
         
-    }*/
-
-    
+    }
+}
    
-    /*---------------------Footer v2------------------------------------*/
-    .imagenWave{
-        display: none;
-    }
-    .footerText{
-        display: none;
-    }
-    .footerText-item2{
-        /*font-size: .8rem;
-        margin-top: 1.2rem;
-       /* margin-top: 3%;*/
-       display: none;
-    }
-    .footerLink{
-        color: rgb(0, 0, 0);
-        font-size: 2vw;/*1.8vw;*/
-    }
-    .footer-brand{
-        display: none;
-    }
-    /*.footerLink{
-        margin-bottom: 1rem;
-    }*/
-    
-    .footer-brand-compressed{
-        display: flex;
-        /*height: 50%;*/
-        height: 6vw;/*5vw;*/
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 0rem;
-        padding-top: .2rem;
-        padding-bottom: .2rem;
-        
+
+@media only screen and (min-width: 992px) and (max-width: 1279px){
+    .inputbox{
+        width: 70%; 
+        left: 5vw;
         
     }
-    .alle{
-        position: relative;
-        top: 0;
+}
+    
+@media only screen and (min-width: 1280px) {
+    .inputbox{
+        width: 70%;
+        
+        left: 5vw;
+        
     }
-    .bi-instagram{
-        margin-right: 30px;
+}
+   
+@media only screen and (max-width: 300px) {
+    .inputbox{
+        width: 50%;
     }
     
-}
-    
-
-
-
-
-/***************************Formulario Login********************************************/
-
-
-.container-fluid{
-    background: #53cfa0;
-    height: 100%;
-    width: fit-content;
-    
-    
-    
-}
-
-
-
-.form-container{
-    background: #F4ECF7;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px;
-    margin: auto;
-    height:100% ;
-    width: fit-content;      
-}
-
-h1{
-    font-size: 4rem;
-    font-family: 'Lora', serif;
-
-
-}
-p{
-    font-size: 0.7rem;
-    font-family: 'Inter', sans-serif;
-    color: #566573;
-
-}
-
-#boton{
-    color: #fff;
-    padding: 5px;
-    cursor: pointer;
-    background-size: 300%;
-    background-image: linear-gradient(to left, #145A32,#229954,#229954,#1E8449);
-}
-
-
-
-
-@media(max-width: 480px){
-    form{
-        width: 100%;
+    .ejemplo{
+        display: none;
     }
 }
 
 
+@media only screen and (min-height: 600px) and (max-height: 1024px) {
+    .inputbox{
+        width: 70%;
+        left: 0vw;
+       
+        
+    }
+}
 
-/***************************Formulario Login********************************************/
+@media only screen and (min-width: 200px) and (max-width: 412px) {
+    .inputbox{
+        width: 60%;
+        left: -8vw;
+  
+    }
+}
 
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .inputbox{
+        width: 60%;
+        margin-left: 15vw;
+       
+        
+    }
+}
+
+@media only screen and (min-width: 280px) and (min-height: 653px) and (max-width: 282px) and (max-height: 655px)  {
+    .inputbox{
+        width: 50%;
+        left: -20%;
+    }
+    .ejemplo{
+        display: none;
+    }
+}
