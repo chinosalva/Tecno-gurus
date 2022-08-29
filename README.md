@@ -5,7 +5,7 @@
 ---
 
 ## Integrantes:
-* Abel López
+* Abel López Ortiz
 * Abigail
 * Aline
 * Edith
