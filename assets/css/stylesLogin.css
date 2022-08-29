@@ -61,7 +61,7 @@ body{
 .inputbox input {
     position: absolute;
     background-color: var(--primary-color);
-    width: 100%;
+    width: 60%;
     height: 4px;
     bottom: 0;
     box-shadow: none;
@@ -70,7 +70,7 @@ body{
     border-radius: 2px;
     transition: .5s;
     font-size: 20px;
-    padding: 0 10px;
+    padding: 0 10px; 
 }
 
 .inputbox input:focus,
@@ -92,7 +92,6 @@ button {
     font-size: 20px;
     font-weight: bold;
     border-radius: 56px;
-    
     background: #FAD58F;
     border: 4px solid #BBF7D0;
     box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
@@ -106,34 +105,30 @@ button:hover{
 
 @media only screen and (max-width: 576px) {
     .inputbox{
-        width: 70%;
-        
-        left: 5vw;
+        width: 50%; 
+        left: 7vw;
     }
 }
 @media only screen and (min-width: 768px) {
     .inputbox{
-        width: 70%;
-        
-        left: 5vw;
-        
+        width: 50%;
+        left: 7vw;  
     }
 }
    
 
 @media only screen and (min-width: 992px) and (max-width: 1279px){
     .inputbox{
-        width: 70%; 
-        left: 5vw;
+        width: 50%; 
+        left: 7vw;
         
     }
 }
     
 @media only screen and (min-width: 1280px) {
     .inputbox{
-        width: 70%;
-        
-        left: 5vw;
+        width: 50%;
+        left: 7vw;
         
     }
 }
@@ -151,36 +146,24 @@ button:hover{
 
 @media only screen and (min-height: 600px) and (max-height: 1024px) {
     .inputbox{
-        width: 70%;
-        left: 0vw;
-       
-        
+        width: 50%;
+        left: 7vw;
     }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 412px) {
     .inputbox{
-        width: 60%;
-        left: -8vw;
+        width: 50%;
+        left: 7vw;
   
     }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 600px) {
     .inputbox{
-        width: 60%;
-        margin-left: 15vw;
-       
-        
+        width: 50%;
+        margin-left: 7vw;    
     }
 }
 
-@media only screen and (min-width: 280px) and (min-height: 653px) and (max-width: 282px) and (max-height: 655px)  {
-    .inputbox{
-        width: 50%;
-        left: -20%;
-    }
-    .ejemplo{
-        display: none;
-    }
-}
+
