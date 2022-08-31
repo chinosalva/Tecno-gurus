@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
    
-    <title>Contacto</title>
+    <title>Registro</title>
 </head>
 <body style="background-color: #00716D;">
     <!--------------------------------------------------Comienza Navbar----------------------------------------------------------------->
@@ -33,12 +33,12 @@
                     <li class="nav-item">
                         <a class="nav-link Texto3"  href="./producto.html">Productos</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link Texto3"  href="#">Contacto</a>
+                    <li class="nav-item">
+                        <a class="nav-link Texto3"  href="./contacto.html">Contacto</a>
                     </li>
                     
-                    <li class="nav-item ">
-                        <a class="nav-link Texto3"  href="registro3.html">Registro</a>
+                    <li class="nav-item active">
+                        <a class="nav-link Texto3"  href="#">Registro</a>
                     </li>
                     <li>
                         <a class="nav-link Texto3"  href="./login.html">Inicio <i class="bi bi-person-circle"></i></a>
@@ -56,7 +56,7 @@
     <div class="bodyForms" >
 
         <form id="formularioRegistro" class="formsPadre" >
-            <h1 class="Titulo text-center ">Contáctanos</h1>
+            <h1 class="Titulo text-center ">Registro</h1>
             <div class="forms mb-2">
                 
                 <div class="inputbox ml-auto mr-auto">
@@ -74,10 +74,17 @@
             </div>
             <div class="forms">
                 <div class="inputbox ml-auto mr-auto">
-                    <input type="text" id="inputMensaje" required>
-                    <label id="alertaMensaje" for="inputMensaje" class="Texto2">Mensaje<span class="info ml-3">Cuéntanos en qué podemos ayudarte</span></label>
-                    <span id="alertMenIcono" class="ejemplo"></span>
+                    <input type="text" id="inputTelefono" required>
+                    <label id="alertaTelefono" for="inputTelefono" class="Texto2">Teléfono<span class="info ml-3">(10 dígitos)</span></label>
+                    <span id="alertTelIcono" class="ejemplo"></span>
                     <!--<small class="ejemplo" class="form-text text-muted">Ejemplo: 55-5555-5555</small>-->
+                </div>
+                <div class="inputbox ml-auto mr-auto">
+                    <input type="text" id="inputPassword" required>
+                    <label id="contra" for="inputPassword" class="Texto2 d-inline">Contraseña<span class="info ml-3">(8-10 caracteres)</span></label>
+                    <span class="ejemplo ejC3" id="alertContraIcono"></span>
+                    <!--<span class="error_form" id="error_message">-->
+
                 </div>
             </div>
            
@@ -97,7 +104,7 @@
                 <div class="col-2 col-lg-3"></div>
                 <div class="col-8 col-lg-6 justify-content-center">
                     <div class="Texto2 text-center info2">Instrucciones:</div>
-                    
+                    <div class="Texto2  info2">- La contraseña debe tener mínimo un número, una minúscula y mayúscula.</div>
                     <div class="Texto2 info2">- El nombre debe tener mínimo un nombre  de pila y dos apellidos.</div>
                 </div>
                 <div class="col-2 col-lg-3"></div>

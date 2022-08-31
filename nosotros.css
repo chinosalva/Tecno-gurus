@@ -9,9 +9,9 @@ font-family: 'Lora', serif;
 font-family: 'Quicksand', sans-serif;
 */
 
-<<<<<<< HEAD
+
 /****************************** Estandarización de estilos *******************************/
-=======
+
 /* LOADING */
 .contenedor {
     position: fixed;
@@ -20,7 +20,7 @@ font-family: 'Quicksand', sans-serif;
     top: 0;
     left: 0;
     padding: 0%;
-    background-color: #000;
+    background-color: red;
     z-index: 100000;
 }
 .cargando-wraper {
@@ -76,7 +76,7 @@ font-family: 'Quicksand', sans-serif;
     }
 }
 /* TERMINA LOADING */
->>>>>>> 4f47c35e7737663cfc910fba4e09427972bcc034
+
 
 .título1 {
     text-align: center;
