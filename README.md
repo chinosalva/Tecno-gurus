@@ -8,7 +8,7 @@
 * Abel López Ortiz
 * Abigail
 * Aline
-* Edith C
+* Edith
 * Erick
 * Karen
 
