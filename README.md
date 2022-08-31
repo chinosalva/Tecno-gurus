@@ -1,6 +1,6 @@
 # Tecno Gurús
 ---
-# Proyecto: Botánicos 
+# ~Proyecto: Botánicos~
 ## Descripción: E-commerce enfocado en la venta de plantas.
 ---
 
