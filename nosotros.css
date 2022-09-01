@@ -26,7 +26,7 @@ font-family: 'Quicksand', sans-serif;
     transition: 1.5s;
     display: none;
 }
-#cargando-l, #cargando-o, #cargando-a, #cargando-d, #cargando-i, #cargando-n, #cargando-g {
+#cargando-lcargando-o, #cargando-a, #cargando-d, #cargando-i, #cargando-n, #cargando-g {
     position: relative;
     display: inline-block;
     color: transparent;
