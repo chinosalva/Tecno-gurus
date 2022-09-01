@@ -230,8 +230,7 @@ footer{
     font-size: 1rem;
     color: rgb(216, 216, 216); 
     margin-top: 1rem;
-  
-    
+     
 }
 
 .footer-brand-compressed{
@@ -400,6 +399,9 @@ footer{
     }
     
 }
+    
+
+
 /* LOADING */
 .contenedor {
     position: fixed;
@@ -465,5 +467,3 @@ footer{
 }
 /* TERMINA LOADING */
     
-
-

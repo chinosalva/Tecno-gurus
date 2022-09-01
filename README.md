@@ -1,13 +1,14 @@
 # Tecno Gurús
 ---
-# Proyecto: Botánicos 
+# ~Proyecto: Botánicos~
 ## Descripción: E-commerce enfocado en la venta de plantas.
 ---
 
 ## Integrantes:
-* Abel
+* Abel López Ortiz
 * Abigail
 * Aline
 * Edith
 * Erick
 * Karen
+
