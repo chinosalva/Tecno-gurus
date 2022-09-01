@@ -13,7 +13,7 @@ const baseDeDatos =
   precio: "$450",
   imagen: "assets/images/productosImgB/AnyConv.com__Monstera Deliciosa.png",
   categoria: "Plantas",
-  descripcion: "Conocida también como Costilla de Adán, la Monstera Deliciosa es famosa. por los hoyos que se hacen naturalmente en sus hojas.",
+  descripcion: "También conocida como Costilla de Adán es famosa por sus preciosas hojas.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 10 - 24 ºC"
 },
 {
@@ -22,7 +22,7 @@ const baseDeDatos =
   precio: "$400",
   imagen: 'assets/images/productosImgB/Amoena.png',
   categoria: "Plantas",
-  descripcion: "Es una planta muy querida por los amantes de las plantas ya que soporta muy bien los espacios sombríos.",
+  descripcion: "Es una de las más populares porque tolera los espacios sombríos.",
   ciudados: "☀ Sombra, semisombra (luz indirecta) 💧Riego 1 vez por semana 🌡20 - 35ºC."
 },
 {
@@ -31,7 +31,7 @@ const baseDeDatos =
   precio: "$120",
   imagen: 'assets/images/productosImgB/AnyConv.com__Dracena Piña.png',
   categoria: "Plantas",
-  descripcion: "Es una planta tropical originaria del Sureste de África. Crece muy lentamente.",
+  descripcion: "Es una planta tropical originaria del Sureste de África y crece muy lentamente.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -40,7 +40,7 @@ const baseDeDatos =
   precio: "$200",
   imagen: 'assets/images/productosImgB/AnyConv.com__Cactus Órgano Chico.png',
   categoria: "Plantas",
-  descripcion: "El Órgano es de los cactus más conocidos del mundo, pertenece a la familia de las cactáceas",
+  descripcion: "Este tipo de cactus es muy común y pertenece a la familia de las cactáceas",
   ciudados: "Pleno sol y ventilación Regar abundantemente 1 vez por mes 7 - 30ºC."
 },
 {
@@ -49,7 +49,7 @@ const baseDeDatos =
   precio: "$200",
   imagen: 'assets/images/productosImgB/AnyConv.com__Sansevieria.png',
   categoria: "Plantas",
-  descripcion: "La Sansevieria es mejor conocida como Espada o Lengua de Tigre. La puedes reconocer por sus largas hojas.",
+  descripcion: "Sus largas hojas son el toque ideal para cualquier esquina de tu hogar.",
   ciudados: "Soporta sol directo, indirecto, semisombra y sombra. Riego 1 vez por semana (o cada 15 días si no le da sol)16 - 32ºC."
 },
 {
@@ -58,7 +58,7 @@ const baseDeDatos =
   precio: "$800",
   imagen: 'assets/images/productosImgB/AnyConv.com__Ficus Pandurata Mediano.png',
   categoria: "Plantas",
-  descripcion: "El Ficus Pandurata se ha vuelto famoso por sus hojas de verde vibrante. Prefieren lugares muy luminosos .",
+  descripcion: "Destacan sus hojas de verde vibrante que aportan luminosidad.",
   ciudados: "Mucha luz indirecta Regar cada 3 semanas 15 - 30ºC."
 },
 {
@@ -67,7 +67,7 @@ const baseDeDatos =
   precio: "$700",
   imagen: 'assets/images/productosImgB/AnyConv.com__Hule grande.png',
   categoria: "Plantas",
-  descripcion: "También conocido como Ficus Elástica, este árbol es originario de Asia. Se ha convertido en uno. de los favoritos.",
+  descripcion: "Este árbol es originario de Asia y se ha posicionado como uno de los favoritos.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 20 - 30ºC."
 },
 {
@@ -76,7 +76,7 @@ const baseDeDatos =
   precio: "$100",
   imagen: 'assets/images/productosImgB/AnyConv.com__Monstera Adansonii Chica.png',
   categoria: "Plantas",
-  descripcion: "Conocida también como Esqueleto, es una planta muy querida gracias a las perforaciones naturales de sus hojas.",
+  descripcion: "Es una planta peculiar que destaca por las perforaciones naturales de sus hojas.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -94,7 +94,7 @@ const baseDeDatos =
   precio: "$450",
   imagen: 'assets/images/productosImgB/AnyConv.com__Palo de Brasil.png',
   categoria: "Plantas",
-  descripcion: "El Palo de Brasil o también conocido como Palo de Agua, es una planta tropical que se adapta bien.",
+  descripcion: "El Palo de Brasil o Palo de Agua es una planta tropical que se adapta bien.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -103,7 +103,7 @@ const baseDeDatos =
   precio: "$400",
   imagen: 'assets/images/productosImgB/AnyConv.com__Peperomia.png',
   categoria: "Plantas",
-  descripcion: "Es una planta originaria del norte de Sudamérica. Le gustan los espacios sombríos.",
+  descripcion: "Es una opción ideal si deseas decorar los espacios sombríos de tu hogar.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -112,7 +112,7 @@ const baseDeDatos =
   precio: "$400",
   imagen: 'assets/images/productosImgB/AnyConv.com__Rhipsalis.png',
   categoria: "Plantas",
-  descripcion: "Aunque no parezca, Rhipsalis pertenece a la familia de las cactáceas, o sea, ES UN CACTUS.",
+  descripcion: "Aunque no parezca, Rhipsalis pertenece a la familia de las cactáceas.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -121,7 +121,7 @@ const baseDeDatos =
   precio: "$100",
   imagen: 'assets/images/productosImgB/AnyConv.com__Sábila.png',
   categoria: "Plantas",
-  descripcion: "La sábila es una planta muy apreciada ya que tiene muchas propiedades que benefician nuestra salud.",
+  descripcion: "Esta planta es muy apreciada porque tiene propiedades benéficas para nuestra salud.",
   ciudados: "Mucha luz indirecta o directa Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -130,7 +130,7 @@ const baseDeDatos =
   precio: "$300",
   imagen: 'assets/images/productosImgB/AnyConv.com__Sapito Chico.png',
   categoria: "Plantas",
-  descripcion: "Su nombre científico es Maranta Leuconera, es una planta siempre verde que tiene la particularidad de dejar sus hojas erguidas.",
+  descripcion: "Es perfecta porque es pequeña y tiene sus hojas erguidas que simulan un sapito.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -148,7 +148,7 @@ const baseDeDatos =
   precio: "$900",
   imagen: 'assets/images/productosImgB/AnyConv.com__Zamioculca.png',
   categoria: "Plantas",
-  descripcion: "La Zamioculca se caracteriza por sus hojas verdes cerosas sobre la superficie de su mezcla para macetas.",
+  descripcion: "Se caracteriza por sus hojas cerosas que destacan en cualquier superficie.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -157,7 +157,7 @@ const baseDeDatos =
   precio: "$500",
   imagen: 'assets/images/productosImgB/AnyConv.com__Orquídea Blanca.png',
   categoria: "Plantas",
-  descripcion: "Orquídea blanca de dos varas.",
+  descripcion: "Las orquídeas son perfectas para embellecer cualquier tipo de espacio en tu hogar.",
   ciudados: "AL IGUAL QUE SUCEDE CON EL RESTO DE LAS PLANTAS CRASAS, NO TE EXCEDAS EN SU RIEGO, SOBRE TODO DE OTOÑO A PRIMAVERA."
 },
 {
@@ -166,7 +166,7 @@ const baseDeDatos =
   precio: "$400",
   imagen: 'assets/images/productosImgB/AnyConv.com__Palma Areca.png',
   categoria: "Plantas",
-  descripcion: "Orquídea blanca de dos varas.",
+  descripcion: "Es perfecta para los interiores porque no necesita la luz directa del sol.",
   ciudados: "La palmera Areca, es una planta muy popular en la decoración de interiores."
 },
 {
@@ -175,7 +175,7 @@ const baseDeDatos =
   precio: "$100",
   imagen: 'assets/images/productosImgB/AnyConv.com__Helecho.png',
   categoria: "Plantas",
-  descripcion: "Es una planta muy llamativa por sus frondosas ramas. Son originarios de África, Australia.",
+  descripcion: "Es una planta muy llamativa por sus frondosas ramas. Son originarios de África.",
   ciudados: "Mucha luz indirecta Regar 2 o 3 veces por semana 15 - 20ºC."
 },
 {
@@ -184,7 +184,7 @@ const baseDeDatos =
   precio: "$400",
   imagen: 'assets/images/productosImgB/AnyConv.com__Aralia.png',
   categoria: "Plantas",
-  descripcion: "La Aralia es una planta de interior muy resistente. La aralia es una superviviente nata y muy versátil.",
+  descripcion: "Es una planta de interior muy resistente y muy versátil.",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC."
 },
 {
@@ -193,7 +193,7 @@ const baseDeDatos =
   precio: "$100",
   imagen: 'assets/images/productosImgB/AnyConv.com__Lavanda.png',
   categoria: "Plantas",
-  descripcion: "a lavanda toma su nombre del latín lavare (lavar), y se ha utilizado durante siglos para aromatizar aceite de baño y jabones.",
+  descripcion: "Se ha utilizado durante siglos para aromatizar los aceites de baño y los jabones.",
   ciudados: "Mucha luz directa Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -211,7 +211,7 @@ const baseDeDatos =
   precio: "$100",
   imagen: 'assets/images/productosImgB/AnyConv.com__Ceropegia Woodii.png',
   categoria: "Plantas",
-  descripcion: "También conocida como Cadena de Corazones, es una planta que puede trepar o colgar.",
+  descripcion: "Es conocida como Cadena de Corazones porque sus ramas son muy largas.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 12 - 20ºC."
 },
 {
@@ -220,7 +220,7 @@ const baseDeDatos =
   precio: "$120",
   imagen: 'assets/images/productosImgB/AnyConv.com__Aralia Schefflera.png',
   categoria: "Plantas",
-  descripcion: "La podemos describir como arbusto de hoja perenne que si le realizamos ligeras podas puede mostrarse incluso como un pequeño arbolito.",
+  descripcion: "Es ideal si deseas tener un arbolito en el interior de tu hogar.",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC."
 },
 {
@@ -229,7 +229,7 @@ const baseDeDatos =
   precio: "$400",
   imagen: 'assets/images/productosImgB/AnyConv.com__Espada Plateada.png',
   categoria: "Plantas",
-  descripcion: "También conocida como Sansevieria craigii, Sansevieria jacquinii y Sansevieria laurentii superba, esta hermosa planta es muy popular como planta de interior.",
+  descripcion: "Esta hermosa planta es muy popular como planta de interior.",
   ciudados: "Soporta sol directo, indirecto, semisombra y sombra. Riego 1 vez por semana (o cada 15 días si no le da sol)16 - 32ºC."
 },
 {
@@ -238,7 +238,7 @@ const baseDeDatos =
   precio: "$100",
   imagen: 'assets/images/productosImgB/AnyConv.com__Sansevieria Zeylanica Mini.png',
   categoria: "Plantas",
-  descripcion: "La Sansevieria Zeylanica es una de las mejores plantas en temas de purificación del aire.",
+  descripcion: "Es una las mejores plantas porque ayuda a purificar el aire.",
   ciudados: "​ Soporta sol directo, indirecto, semisombra y sombra. ​ Riego 1 vez por semana (o cada 15 días si no le da sol) 16 - 32ºC."
 },
 {
@@ -247,7 +247,7 @@ const baseDeDatos =
   precio: "$150",
   imagen: 'assets/images/productosImgB/AnyConv.com__Palma Camedor.png',
   categoria: "Plantas",
-  descripcion: "La Palma Camedor son nativas de las regiones subtropicales y tropicales de las Américas.",
+  descripcion: "Son nativas de las regiones subtropicales y tropicales de las Américas.",
   ciudados: "Mucha luz indirecta Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -256,7 +256,7 @@ const baseDeDatos =
   precio: "$400",
   imagen: 'assets/images/productosImgB/AnyConv.com__Olivo Chico.png',
   categoria: "Plantas",
-  descripcion: "El árbol, así como su fruto, la oliva y su aceite son considerados símbolo sanación y longevidad, resistencia y renovación.",
+  descripcion: "Es considerada un símbolo de sanación y longevidad, resistencia y renovación.",
   ciudados: "Mucha luz directa Regar 1 vez por semana 10 - 24 ºC."
 },
 {
@@ -265,7 +265,7 @@ const baseDeDatos =
   precio: "$200",
   imagen: 'assets/images/productosImgB/AnyConv.com__Helecho Nido de Ave.png',
   categoria: "Plantas",
-  descripcion: "El helecho nido de ave es originario de las selvas lluviosas tropicales del norte de Australia.",
+  descripcion: "Es originario de las selvas lluviosas tropicales del norte de Australia.",
   ciudados: "Mucha luz indirecta o sombra Regar 1 o 2 veces por semana 15 - 20ºC."
 },
 {
@@ -274,7 +274,7 @@ const baseDeDatos =
   precio: "$200",
   imagen: 'assets/images/productosImgB/AnyConv.com__Helecho Cilantrillo.png',
   categoria: "Plantas",
-  descripcion: "El helecho Culantrillo puede medir entre 20 a 40 cm de alto y ancho, Es una planta más bien baja pero frondosa.",
+  descripcion: "Llega a medir entre 20 a 40 cm de alto y ancho por lo que luce muy frondosa.",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC."
 },
 {
@@ -283,7 +283,7 @@ const baseDeDatos =
   precio: "$250",
   imagen: 'assets/images/productosImgB/AnyConv.com__Zamioculca Mini.png',
   categoria: "Plantas",
-  descripcion: "La Zamioculca se caracteriza por sus hojas verdes cerosas sobre la superficie de su mezcla para macetas y sus grandes rizomas.",
+  descripcion: "Se caracteriza por sus hojas verdes cerosas y sus grandes rizomas.",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC."
 },
 {
@@ -292,7 +292,7 @@ const baseDeDatos =
   precio: "$700",
   imagen: 'assets/images/productosImgB/AnyConv.com__Pata de Elefante.png',
   categoria: "Plantas",
-  descripcion: "Originaria del desierto meridional mexicano, es una planta que tiene la base del tronco muy amplia en donde almacena agua.",
+  descripcion: "Es una de las favoritas por sus hermosas hojas largas y verdes.",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC."
 },
 {
@@ -301,7 +301,7 @@ const baseDeDatos =
   precio: "$800",
   imagen: 'assets/images/productosImgB/AnyConv.com__Peperomia Variegada.png',
   categoria: "Plantas",
-  descripcion: "La Peperomia obtusifolia es una fantástica planta que se puede cultivar durante toda su vida en maceta.",
+  descripcion: "Es una fantástica planta que se puede cultivar durante toda su vida en maceta.",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC."
 },
 {
@@ -310,7 +310,7 @@ const baseDeDatos =
   precio: "$850",
   imagen: 'assets/images/productosImgB/AnyConv.com__Sapito Gris.png',
   categoria: "Plantas",
-  descripcion: "A esta planta le gusta mucho la luz, pero no el sol directo. Es una gran opción para tenerla en lugares interiores.",
+  descripcion: "A esta planta le gusta mucho la luz, pero no el sol directo. Es ideal para los interiores.",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC."
 },
 {
@@ -319,7 +319,7 @@ const baseDeDatos =
   precio: "$500",
   imagen: 'assets/images/productosImgB/AnyConv.com__Orquídea Fucsia.png',
   categoria: "Plantas",
-  descripcion: "Orquídea Fucsia de dos varas.",
+  descripcion: "Nuestra orquídea fucsia es una de las más buscadas por sus preciosos colores",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC."
 },
 {
@@ -328,7 +328,7 @@ const baseDeDatos =
   precio: "$500",
   imagen: 'assets/images/productosImgB/AnyConv.com__Orquídea Moteada.png',
   categoria: "Plantas",
-  descripcion: "Orquídea moteada de dos varas.",
+  descripcion: "Esta orquídea une lo mejor de la belleza del blanco y la osadía del rosa",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC."                      
 },
 {
@@ -337,7 +337,7 @@ const baseDeDatos =
   precio: "$520",
   imagen: 'assets/images/productosImgB/AnyConv.com__Mix Suculentas.png',
   categoria: "Plantas",
-  descripcion: "Mix Suculentas es el arreglo más colorido de nuestra colección de plantas, pueden variar las especies de suculentas seleccionadas.",
+  descripcion: "Mix Suculentas es el arreglo más colorido de nuestra colección de plantas.",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC."
 }
 ]
