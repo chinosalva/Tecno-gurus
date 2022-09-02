@@ -33,12 +33,14 @@ margin: 0 auto;
 }
 .box {
     display: flex;
-    width: 100%;
-    height: 200px;
+    width: 75%;
+    height: 300px;
     overflow: hidden;
     margin-bottom: 20px;
     background: #fff;
     transition: all .6s ease;
+    margin-bottom: 1.7rem;
+
     /* box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0; */
 
 }
@@ -51,7 +53,7 @@ margin: 0 auto;
     object-fit: cover;
 }
 .content {
-    padding: 20px;
+    padding-left: 20px;
     position: relative;
     width: 100%;
 }
@@ -61,15 +63,16 @@ margin: 0 auto;
 .content h4 {
     margin-bottom: 50px;
 }
+
 .btn-area {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+    width: 120px;
+    bottom: 50px;
+    left: 20px;
     padding: 10px 25px;
     background-color: #FAD58F;
     color: #000;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .btn-area:hover {
     background-color: #76bfb6;
@@ -84,12 +87,15 @@ margin: 0 auto;
     margin-right: 5px;
 }
 .right-bar {
-    flex: 25%;
-    margin-left: 20px;
+    
+    flex: 50%;
     padding: 20px;
-    height: 400px;
+    height: 370px;
     border-radius: 5px;
     background: #fff;
+    position: fixed;
+    right: 340px;
+    
 }
 .right-bar hr {
     margin-bottom: 25px;
@@ -98,10 +104,10 @@ margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .right-bar a {
-    background-color: #00716D;
+    background-color: #FAD58F;
     color: #fff;
     text-decoration: none;
     display: block;
@@ -115,7 +121,34 @@ margin: 0 auto;
     color: #00716D;
 }
 .right-bar a:hover {
-    background-color: #FAD58F;
+    background-color: #00716D;
+}
+.botonIni{
+    background: #FAD58F;
+/* Primary/200 */
+
+    border: 4px solid #BBF7D0;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 56px;
+}
+/* .botonIni:hover{
+    background-color: rgb(255, 142, 3);
+    transform: scale(1.1);
+} */
+
+
+
+@media only screen and (max-width: 1024px) {
+    .right-bar{
+        position: relative;
+        right: 0px;
+    }
+    .box img{
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+    }
+
 }
 @media screen and (max-width: 700px) {
     .content h3 {
@@ -124,16 +157,13 @@ margin: 0 auto;
     .content h4 {
         margin-bottom: 20px;
     }
-    .btn2 {
+    /*.btn2 {
         display: none;
-    }
+    }*/
     .box {
-        height: 150px;
+        height: 300px;
     }
-    .box img{
-        height: 150px;
-        width: 200px;
-    }
+   
 }
 @media screen and (max-width: 900px){
     .proyect {
