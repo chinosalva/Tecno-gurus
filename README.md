@@ -12,3 +12,6 @@
 * Erick
 * Karen
 
+## APP Desplegada
+* https://musical-sorbet-309a59.netlify.app/index.html
+

@@ -40,7 +40,7 @@ function validarRegistro(valor1, valor2, valor3){
     $alertaNombreIcono.innerHTML = ' ';
     
     /* const buscarNombre1 = /([a-zA-Z]{2,}\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)/;/ */
-    const buscarNombre2 = /([a-zA-Z]{2,})((\s[a-zA-Z]{2,}){2,})/;
+    const buscarNombre2 = /^([a-zA-Z]{2,})((\s[a-zA-Z]{2,}){2})$/;
     const buscarEmail = /[\w]+@{1}[\w]+\.[a-z]{2,3}/;
     const buscarPassword = /^[a-zA-z0-9]{10,50}$/; //^(?=\w\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,10}$/;/ //^[a-zA-Z0-9]{8}$/; */
     
