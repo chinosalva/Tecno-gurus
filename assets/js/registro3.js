@@ -42,7 +42,7 @@ function validarRegistro(valor1, valor2, valor3, valor4){
     $alertaTelIcono.innerHTML = ' ';
     
     /*const buscarNombre1 = /([a-zA-Z]{2,}\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)/;*/
-    const buscarNombre2 = /([a-zA-Z]{2,})((\s[a-zA-Z]{2,}){2,})/;
+    const buscarNombre2 = /^([a-zA-Z]{2,})((\s[a-zA-Z]{2,}){2})$/;
     const buscarEmail = /[\w]+@{1}[\w]+\.[a-z]{2,3}/;
     const buscarPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,10}$/; /*/^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,10}$/;*/ /*/^[a-zA-Z0-9]{8}$/; */
     const buscarTelefono = /\d{10}/;
