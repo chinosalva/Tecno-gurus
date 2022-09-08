@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/styleRegistro4.css">
+    <link rel="stylesheet" href="assets/css/newcontacto.css">
+    <link rel="shortcut icon" href="assets/images/header-02.png" type="image/x-icon">
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
    
-    <title>Registro</title>
+    <title>Botanicos</title>
 </head>
-<body style="background-color: #00716D;">
+
     <!--------------------------------------------------Comienza Navbar----------------------------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
@@ -53,56 +54,40 @@
         </div>
     </nav>
     <!--------------------------------------------------Termina Navbar----------------------------------------------------------------->
-    <div class="bodyForms" >
-
-        <form id="formularioRegistro" class="formsPadre" >
-            <h1 class="Titulo text-center ">Registro</h1>
-            <div class="forms">
-                
-                <div class="inputbox" style="margin-left: 22vw">
-                    <input type="text" id="inputName" required>
-                    <label id= "alertaNombre" for="inputName" class="Texto22">Nombre<span class="info ml-3">(Pepe López Pérez)</span></label>
-                    <span id="alertNombreIcono" class="ejemplo "></span>
-                   
-                    
-                </div>
-            </div>
-            <div class="forms mt-2">
-                <div class="inputbox" style="margin-left: 22vw;">
-                    <input type="text" id="inputEmail" required>
-                    <label id="alertaEmail"for="inputEmail" class="Texto22">Correo<span class="info ml-3">(hola@gmail.com)</span></label>
-                    <span class="ejemplo ejC4" id="alertEmailIcono"></span>
-                </div>
-            </div>
-            <div class="forms mt-2">
-                <div class="inputbox" style="margin-left: 22vw">
-                    <input type="text" id="inputTelefono" required>
-                    <label id="alertaTelefono" for="inputTelefono" class="Texto22">Teléfono<span class="info ml-3">(10 dígitos)</span></label>
-                    <span id="alertTelIcono" class="ejemplo"></span>
-                    <!--<small class="ejemplo" class="form-text text-muted">Ejemplo: 55-5555-5555</small>-->
-                </div>
-            </div>
-            <div class="forms mt-2">
-                <div class="inputbox" style="margin-left: 22vw;">
-                    <input type="text" id="inputPassword" required>
-                    <label id="contra" for="inputPassword" class="Texto22 d-inline">Contraseña<span class="info ml-3">(8-10 carácteres)</span></label>
-                    <span class="ejemplo ejC3" id="alertContraIcono"></span>
-                    <!--<span class="error_form" id="error_message">-->
-
-                </div>
-            </div>
-           
-         
-      
-            <div class="forms d-flex justify-content-center">
-                <button type="submit" class="botonIni mt-3">Enviar</button>
-            </div>
-            
-            
-        </form>
-            
-    </div>
+    <!--------------------------------------------------Comienza Formulario Resgistro----------------------------------------------------------------->
     <div class="container">
+        <div class="row m-5 no-gutters shadow-lg">
+            <div class="col-md-6 d-none d-md-block">
+                <img src="assets/images/productosImgB/AnyConv.com__Orquídea Blanca.png" alt="" class="img-fluid" style="min-height: 100%;">
+            </div>
+            <div class="col-md-6 bg-white p-5">
+                <h3 class="pb-3">
+                    Registro
+                </h3>
+                <div class="form-style">
+                    <form action="" method="post" id="form">
+                        <div class="form-group pb-3">
+                            <input type="text" placeholder="Ingresa tu nombre" name="" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group pb-3">
+                            <input type="email" placeholder="Correo electrónico" name="" class="form-control" id="exampleInputEmail">
+                        </div>
+                        <div class="form-group pb-3">
+                            <input type="tel" placeholder="Teléfono" name="" class="form-control" id="exampleInputTelefono">
+                        </div>
+                        <div class="form-group pb-3">
+                            <input type="password" placeholder="Contraseña" name="" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <p class="advertencia" id="advertencia"></p>
+                        <div class="d-flex aling-items-center justify-content-between">
+                            <span class="font-weight-bold"></span>
+                            <div><a href="#">Olvidaste la contraseña</a></div>
+                        </div>
+                        <div class="pb-2">
+                            <button type="submit" class="btn btn-dark w-100 font-weight-bold mt-2">Entrar</button>
+                        </div>
+                    </form>
+                    <div class="sideline">O</div>
         <div class="insturcciones">
             <div class="row">
                 <div class="col-2 col-lg-3"></div>
@@ -111,13 +96,16 @@
                     <div class="Texto2  info2">Crea tu contraseña con un número, una minúscula y una mayúscula</div>
                     <div class="Texto2 info2">El nombre deberá tener un nombre de pila y dos apellidos</div>
                 </div>
-                <div class="col-2 col-lg-3"></div>
-            
+                <button type="submit" class="btn btn-primary w-100 font-weight-bold mt-2"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</button>
             </div>
-            
-            
+        </div>
+        </div>
         </div>
     </div>
+
+
+    <div id="test"></div>
+    <!--------------------------------------------------Termina Formulario Registro----------------------------------------------------------------->
     <!------------------------------------------------------------Comienza Footer v2------------------------------------->
     <footer>
         <div class="imagenWave">
