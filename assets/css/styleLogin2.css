@@ -6,8 +6,7 @@
 }
 
 body{
-    --bg-color: #00716D;
-    --primary-color: #FAD58F;
+    background-color: #fff !important; 
     justify-content: center;
     align-items: center;
 }

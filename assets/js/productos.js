@@ -212,6 +212,7 @@ const baseDeDatos =
   categoria: "Plantas",
   descripcion: "Es una planta muy llamativa por sus frondosas ramas. Son originarios de África.",
   ciudados: "Mucha luz indirecta Regar 2 o 3 veces por semana 15 - 20ºC.",
+  singlePage: "../../"
 },
 
 {
@@ -222,7 +223,7 @@ const baseDeDatos =
   categoria: "Plantas",
   descripcion: "Es una planta de interior muy resistente y muy versátil.",
   ciudados: "Semisombra (luz indirecta) Regar 1 vez por semana 10 - 24ºC.",
-  singlePage: "../../../assets/singlePage/uno.html"
+  singlePage: "../../../"
 
 },
 {
